@@ -1,13 +1,1604 @@
 <!DOCTYPE html>
 <html lang="ar" dir="rtl">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-<meta name="theme-color" content="#05080e">
-<meta name="apple-mobile-web-app-capable" content="yes">
-<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-<title>البروفيسور — خلاصة الكتابين في صفحة واحدة</title>
-<meta name="description" content="البروفيسور: أهم النصائح والتطبيقات العملية من كتاب إطلاق طاقات الحياة وكتاب البرمجة اللغوية العصبية، في جداول منظمة وخطة 30 يوم.">
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+<meta name="theme-color" content="#05080e" />
+<meta name="description" content="البروفيسور — خلاصة تنفيذية لكتابَي «إطلاق طاقات الحياة» و«البرمجة اللغوية العصبية» في جداول عملية وخطة 30 يومًا." />
+<title>البروفيسور — خلاصة كتابين في علم النفس والاتصال</title>
+<script>document.documentElement.classList.add('js');</script>
 <style>
-/* ==== embedded fonts (offline) ==== */
-@font-face{font-family:'Amiri';font-style:normal;font-weight:400;font-display:swap;src:url(data:font/woff2;base64,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
+/* ============================================================
+   البروفيسور — موقع من ملف واحد (HTML + CSS + JS)
+   هوية: Midnight Gold
+   ملاحظة: لا يوجد أي طلب شبكة — الخطوط نظامية، ولا صور خارجية.
+   ملاحظة أمنية: بوابة الرمز أدناه حماية واجهة (UI gate) فقط،
+   وليست أمانًا حقيقيًا؛ أي شخص يفتح الملف يستطيع قراءة الكود
+   وتجاوز القفل. لا تضع فيها بيانات حساسة.
+   ============================================================ */
+:root{
+  --bg:#05080e;
+  --bg-2:#080d16;
+  --gold:#e3c27e;
+  --gold-soft:#f3dca6;
+  --gold-deep:#a9822f;
+  --teal:#2fd0bb;
+  --text:#f2f5f9;
+  --muted:#a6b3c6;
+  --line:rgba(227,194,126,.16);
+  --line-soft:rgba(255,255,255,.07);
+  --glass:rgba(255,255,255,.04);
+  --font-display:"Amiri","Scheherazade New","Traditional Arabic","Noto Naskh Arabic","Times New Roman",serif;
+  --font-body:"Tajawal","Cairo","Segoe UI",Tahoma,"Noto Sans Arabic","Dubai",Arial,sans-serif;
+  --header-h:64px;
+  --radius:20px;
+}
+*,*::before,*::after{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%;scroll-behavior:smooth}
+body{
+  margin:0;font-family:var(--font-body);font-size:1rem;line-height:1.85;
+  background:var(--bg);color:var(--text);overflow-x:hidden;min-height:100%;
+}
+body.locked{overflow:hidden}
+h1,h2,h3,h4{font-family:var(--font-display);font-weight:700;line-height:1.3;margin:0 0 .5em}
+p{margin:0 0 1em}
+a{color:var(--gold);text-decoration:none}
+ul{margin:0 0 1em;padding-inline-start:1.15em}
+li{margin-bottom:.4em}
+img,svg,table{max-width:100%}
+button{font-family:inherit}
+::selection{background:rgba(227,194,126,.28);color:#fff}
+[hidden]{display:none!important}
+:focus-visible{outline:2px solid var(--teal);outline-offset:3px;border-radius:10px}
+
+/* ---------- خلفية وهالات ---------- */
+.orb{position:fixed;border-radius:50%;filter:blur(72px);pointer-events:none;z-index:0;opacity:.55}
+.orb-1{width:440px;height:440px;top:-140px;inset-inline-end:-120px;background:radial-gradient(circle,rgba(227,194,126,.55),rgba(227,194,126,0) 68%);animation:drift1 20s ease-in-out infinite}
+.orb-2{width:520px;height:520px;bottom:-220px;inset-inline-start:-160px;background:radial-gradient(circle,rgba(47,208,187,.35),rgba(47,208,187,0) 68%);animation:drift2 26s ease-in-out infinite}
+.orb-3{width:320px;height:320px;top:45%;inset-inline-start:38%;background:radial-gradient(circle,rgba(120,90,220,.22),rgba(120,90,220,0) 70%);animation:drift1 32s ease-in-out infinite reverse}
+@keyframes drift1{0%,100%{transform:translate3d(0,0,0) scale(1)}50%{transform:translate3d(-30px,40px,0) scale(1.08)}}
+@keyframes drift2{0%,100%{transform:translate3d(0,0,0) scale(1)}50%{transform:translate3d(40px,-30px,0) scale(1.12)}}
+
+/* ---------- شريط تقدم القراءة ---------- */
+#readbar{position:fixed;top:0;left:0;height:3px;width:0;z-index:90;
+  background:linear-gradient(90deg,var(--teal),var(--gold));
+  box-shadow:0 0 14px rgba(227,194,126,.55);transition:width .12s linear}
+
+/* ---------- الهيدر ---------- */
+.site-header{position:sticky;top:0;z-index:70;padding-top:env(safe-area-inset-top);
+  background:rgba(5,8,14,.78);-webkit-backdrop-filter:blur(16px);backdrop-filter:blur(16px);
+  border-bottom:1px solid var(--line)}
+.header-inner{display:flex;align-items:center;gap:14px;min-height:var(--header-h)}
+.brand{display:flex;align-items:center;gap:10px;color:var(--text);flex:0 0 auto}
+.brand-mark{display:grid;place-items:center;width:38px;height:38px;border-radius:12px;
+  font-family:var(--font-display);font-size:1.1rem;font-weight:700;color:#10131a;
+  background:linear-gradient(135deg,#f7e7bd,var(--gold) 55%,#c9a35c);
+  box-shadow:0 6px 18px rgba(227,194,126,.25)}
+.brand-text{display:flex;flex-direction:column;line-height:1.2;font-family:var(--font-display);font-size:1.1rem}
+.brand-text small{font-family:var(--font-body);font-size:.68rem;color:var(--muted);letter-spacing:.02em}
+.top-nav{display:flex;align-items:center;gap:2px;margin-inline-start:auto}
+.top-nav a{display:inline-flex;align-items:center;min-height:44px;padding:0 12px;border-radius:999px;
+  color:var(--muted);font-size:.92rem;font-weight:600;transition:color .2s,background .2s}
+.top-nav a:hover{color:var(--gold-soft);background:rgba(227,194,126,.08)}
+.top-nav a.active{color:var(--gold);background:rgba(227,194,126,.12);box-shadow:inset 0 0 0 1px rgba(227,194,126,.22)}
+.header-actions{display:flex;align-items:center;gap:8px}
+.icon-btn{display:inline-flex;align-items:center;gap:7px;min-height:44px;padding:0 14px;border-radius:12px;
+  background:rgba(255,255,255,.03);border:1px solid rgba(227,194,126,.24);color:var(--gold);
+  font-size:.86rem;font-weight:700;cursor:pointer;transition:background .2s,transform .2s}
+.icon-btn:hover{background:rgba(227,194,126,.12)}
+.icon-btn svg{width:17px;height:17px;flex:0 0 auto}
+
+/* ---------- الحاوية ---------- */
+.wrap{width:min(1180px,100% - 36px);margin-inline:auto}
+main{position:relative;z-index:1}
+section.view{display:none}
+section.view.active{display:block;animation:viewIn .45s ease both}
+@keyframes viewIn{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}
+.pad{padding:clamp(32px,6vw,72px) 0}
+
+/* ---------- الغلاف ---------- */
+.hero{position:relative;text-align:center;padding:clamp(42px,8vw,96px) 0 clamp(30px,5vw,56px);overflow:hidden}
+.eyebrow{display:inline-flex;align-items:center;gap:8px;padding:7px 16px;border-radius:999px;
+  border:1px solid rgba(227,194,126,.3);background:rgba(227,194,126,.06);color:var(--gold);
+  font-size:.8rem;font-weight:700;letter-spacing:.06em;margin-bottom:18px}
+.eyebrow .dot{width:7px;height:7px;border-radius:50%;background:var(--teal);box-shadow:0 0 12px var(--teal)}
+.hero h1{font-size:clamp(3.2rem,12vw,7.4rem);line-height:1;margin:0 0 10px;color:var(--gold);
+  letter-spacing:-.02em;text-shadow:0 20px 60px rgba(227,194,126,.18)}
+@supports ((-webkit-background-clip:text) or (background-clip:text)){
+  .hero h1{background:linear-gradient(180deg,#fff8e6 0%,var(--gold) 46%,#a9822f 100%);
+    -webkit-background-clip:text;background-clip:text;color:transparent;text-shadow:none}
+}
+.hero .lede{max-width:720px;margin:0 auto 8px;color:var(--muted);font-size:clamp(1rem,2.6vw,1.18rem)}
+.hero .lede strong{color:var(--text)}
+.hero-cta{display:flex;flex-wrap:wrap;gap:12px;justify-content:center;margin-top:26px}
+.hero-note{color:#7f8da1;font-size:.82rem;margin-top:22px}
+
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:44px;
+  padding:0 22px;border-radius:13px;border:1px solid transparent;font-size:.98rem;font-weight:700;
+  cursor:pointer;transition:transform .18s ease,box-shadow .2s ease,background .2s ease,color .2s ease}
+.btn svg{width:18px;height:18px}
+.btn-gold{background:linear-gradient(135deg,#f7e7bd,var(--gold) 55%,#c9a35c);color:#141008;
+  box-shadow:0 12px 30px rgba(227,194,126,.22)}
+.btn-gold:hover{transform:translateY(-2px);box-shadow:0 16px 40px rgba(227,194,126,.3)}
+.btn-ghost{background:rgba(255,255,255,.03);border-color:rgba(227,194,126,.3);color:var(--text)}
+.btn-ghost:hover{background:rgba(227,194,126,.1);border-color:var(--gold);color:var(--gold-soft)}
+.btn-teal{background:rgba(47,208,187,.12);border-color:rgba(47,208,187,.4);color:var(--teal)}
+.btn-teal:hover{background:rgba(47,208,187,.2)}
+.btn-sm{min-height:44px;padding:0 16px;font-size:.88rem}
+
+/* ---------- شبكة إحصاءات ---------- */
+.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin:34px 0 8px}
+.stat{padding:18px 12px;text-align:center;border-radius:16px;background:var(--glass);
+  border:1px solid var(--line-soft);-webkit-backdrop-filter:blur(8px);backdrop-filter:blur(8px)}
+.stat b{display:block;font-family:var(--font-display);font-size:1.9rem;color:var(--gold);line-height:1.2}
+.stat span{font-size:.8rem;color:var(--muted)}
+
+/* ---------- الأقسام والعناوين ---------- */
+.section-head{display:flex;align-items:flex-end;justify-content:space-between;gap:18px;flex-wrap:wrap;margin-bottom:22px}
+.section-head h2{font-size:clamp(1.7rem,4.6vw,2.6rem);margin:0;color:var(--text)}
+.section-head h2 em{font-style:normal;color:var(--gold)}
+.section-head p{margin:6px 0 0;color:var(--muted);font-size:.94rem;max-width:640px}
+.kicker{display:inline-block;font-size:.76rem;letter-spacing:.18em;color:var(--teal);font-weight:700;margin-bottom:6px}
+
+/* ---------- كروت زجاجية ---------- */
+.grid{display:grid;gap:16px}
+.grid-2{grid-template-columns:repeat(2,minmax(0,1fr))}
+.grid-3{grid-template-columns:repeat(3,minmax(0,1fr))}
+.grid-4{grid-template-columns:repeat(4,minmax(0,1fr))}
+.card{position:relative;padding:22px;border-radius:var(--radius);
+  background:linear-gradient(165deg,rgba(255,255,255,.055),rgba(255,255,255,.018));
+  border:1px solid var(--line-soft);-webkit-backdrop-filter:blur(9px);backdrop-filter:blur(9px);
+  transition:border-color .25s ease,transform .25s ease,box-shadow .25s ease;overflow:hidden}
+.card::after{content:"";position:absolute;inset:0;border-radius:inherit;pointer-events:none;
+  background:radial-gradient(520px circle at 100% 0,rgba(227,194,126,.08),transparent 45%)}
+.card h3{font-size:1.22rem;margin-bottom:8px;color:var(--gold-soft)}
+.card p{color:var(--muted);font-size:.94rem;margin-bottom:0}
+.card .num{display:inline-grid;place-items:center;width:34px;height:34px;border-radius:10px;
+  font-family:var(--font-display);font-size:1rem;color:var(--gold);
+  border:1px solid rgba(227,194,126,.28);background:rgba(227,194,126,.07);margin-bottom:12px}
+@media (hover:hover) and (pointer:fine){
+  .card:hover{border-color:rgba(227,194,126,.34);transform:translateY(-3px);box-shadow:0 20px 48px rgba(0,0,0,.38)}
+}
+
+/* ---------- كروت الكتب ---------- */
+.book{position:relative;overflow:hidden}
+.book::before{content:"";position:absolute;inset-inline-start:0;top:0;bottom:0;width:4px;
+  background:linear-gradient(180deg,var(--gold),rgba(227,194,126,.1))}
+.book.nlp::before{background:linear-gradient(180deg,var(--teal),rgba(47,208,187,.1))}
+.book .book-tag{display:inline-block;font-size:.72rem;font-weight:700;letter-spacing:.08em;
+  padding:4px 10px;border-radius:999px;margin-bottom:10px;
+  background:rgba(227,194,126,.12);color:var(--gold);border:1px solid rgba(227,194,126,.24)}
+.book.nlp .book-tag{background:rgba(47,208,187,.1);color:var(--teal);border-color:rgba(47,208,187,.28)}
+.book h3{font-size:1.45rem;line-height:1.4;margin-bottom:4px;color:var(--text)}
+.book .author{color:var(--gold);font-size:.88rem;font-weight:700;margin-bottom:12px}
+.book.nlp .author{color:var(--teal)}
+.book ul{font-size:.92rem;color:var(--muted);margin-bottom:14px}
+.book ul li::marker{color:var(--gold)}
+.book .book-link{font-size:.88rem;font-weight:700;color:var(--gold);display:inline-flex;align-items:center;gap:6px}
+.book .book-link:hover{text-decoration:underline}
+
+/* ---------- خطوات الاستخدام ---------- */
+.step{display:flex;gap:14px;align-items:flex-start}
+.step .step-n{flex:0 0 auto;width:40px;height:40px;border-radius:50%;display:grid;place-items:center;
+  font-family:var(--font-display);font-weight:700;color:#0b0f16;
+  background:linear-gradient(135deg,var(--gold-soft),#c9a35c);box-shadow:0 8px 20px rgba(227,194,126,.22)}
+.step h4{margin:0 0 4px;font-size:1.02rem;color:var(--text)}
+.step p{margin:0;font-size:.9rem;color:var(--muted)}
+
+/* ---------- تنبيه / ملاحظة ---------- */
+.note{display:flex;gap:12px;padding:16px 18px;border-radius:16px;margin:18px 0;
+  border:1px solid rgba(227,194,126,.22);background:rgba(227,194,126,.06);color:var(--muted);font-size:.9rem}
+.note.teal{border-color:rgba(47,208,187,.24);background:rgba(47,208,187,.06)}
+.note .note-ico{flex:0 0 auto;color:var(--gold);margin-top:2px}
+.note.teal .note-ico{color:var(--teal)}
+.note p{margin:0}
+.note b{color:var(--text)}
+
+/* ---------- شريط الأدوات ---------- */
+.toolbar{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin-bottom:16px;
+  padding:14px;border-radius:16px;background:rgba(255,255,255,.025);border:1px solid var(--line-soft)}
+.chips{display:flex;gap:8px;flex-wrap:wrap}
+.chip{min-height:44px;padding:0 16px;border-radius:999px;cursor:pointer;
+  background:rgba(255,255,255,.03);border:1px solid rgba(255,255,255,.1);color:var(--muted);
+  font-size:.88rem;font-weight:700;transition:all .2s}
+.chip:hover{border-color:rgba(227,194,126,.35);color:var(--gold-soft)}
+.chip.active{background:rgba(227,194,126,.14);border-color:rgba(227,194,126,.5);color:var(--gold)}
+.search-wrap{position:relative;flex:1 1 240px;min-width:200px}
+.search-wrap svg{position:absolute;inset-inline-start:14px;top:50%;transform:translateY(-50%);
+  width:18px;height:18px;color:var(--muted);pointer-events:none}
+#tipSearch{width:100%;height:46px;padding:0 44px 0 14px;border-radius:12px;font-size:16px;
+  background:rgba(0,0,0,.32);border:1px solid rgba(255,255,255,.12);color:var(--text);font-family:inherit}
+#tipSearch::placeholder{color:#6f7d91}
+#tipSearch:focus{border-color:rgba(227,194,126,.55);outline:none;box-shadow:0 0 0 3px rgba(227,194,126,.12)}
+.toolbar-meta{display:flex;align-items:center;gap:10px;margin-inline-start:auto;flex-wrap:wrap}
+#tipCount{font-size:.86rem;color:var(--muted);font-weight:700;white-space:nowrap}
+#tipCount b{color:var(--gold)}
+
+/* ---------- الجداول ---------- */
+/* overflow مرئي حتى يعمل رأس الجدول اللاصق بالنسبة للصفحة */
+.table-wrap{border:1px solid var(--line);border-radius:18px;overflow:visible;background:rgba(255,255,255,.015)}
+table{width:100%;border-collapse:separate;border-spacing:0;min-width:640px;font-size:.9rem}
+caption{caption-side:top;text-align:start;padding:14px 16px;color:var(--muted);font-size:.85rem}
+thead th{position:sticky;top:calc(var(--header-h) + env(safe-area-inset-top));z-index:5;text-align:start;
+  padding:13px 14px;font-family:var(--font-body);font-size:.82rem;font-weight:800;letter-spacing:.02em;
+  color:#10131a;background:linear-gradient(180deg,#f0d9a9,var(--gold) 55%,#c9a35c);
+  border-bottom:1px solid rgba(0,0,0,.18);white-space:nowrap}
+thead th:first-child{border-start-start-radius:16px}
+thead th:last-child{border-start-end-radius:16px}
+tbody td{padding:13px 14px;vertical-align:top;border-bottom:1px solid var(--line-soft);color:var(--muted);line-height:1.8}
+tbody td:first-child{color:var(--gold);font-weight:700;white-space:nowrap}
+tbody tr:nth-child(even){background:rgba(255,255,255,.022)}
+tbody tr:last-child td{border-bottom:none}
+tbody tr{transition:background .18s ease}
+@media (hover:hover) and (pointer:fine){
+  tbody tr:hover{background:rgba(227,194,126,.075)}
+  tbody tr:hover td{color:var(--text)}
+}
+td strong,.cell-strong{color:var(--text);font-weight:700}
+.badge{display:inline-block;font-size:.7rem;font-weight:800;padding:3px 9px;border-radius:999px;
+  margin-inline-end:6px;vertical-align:1px;white-space:nowrap}
+.badge.psy{background:rgba(227,194,126,.14);color:var(--gold);border:1px solid rgba(227,194,126,.3)}
+.badge.nlp{background:rgba(47,208,187,.12);color:var(--teal);border:1px solid rgba(47,208,187,.32)}
+.src{display:block;color:#8b99ad;font-size:.78rem;margin-top:4px}
+
+/* ---------- خطة 30 يوم ---------- */
+.plan-progress{display:flex;align-items:center;gap:16px;flex-wrap:wrap;padding:18px 20px;margin-bottom:20px;
+  border-radius:18px;border:1px solid var(--line);background:linear-gradient(135deg,rgba(227,194,126,.08),rgba(47,208,187,.04))}
+.plan-progress .ring{flex:0 0 auto;text-align:center}
+.plan-progress .ring b{font-family:var(--font-display);font-size:1.7rem;color:var(--gold);line-height:1}
+.plan-progress .ring span{display:block;font-size:.72rem;color:var(--muted)}
+.bar{flex:1 1 200px;height:10px;border-radius:999px;background:rgba(255,255,255,.08);overflow:hidden}
+.bar i{display:block;height:100%;width:0;border-radius:999px;
+  background:linear-gradient(90deg,var(--teal),var(--gold));transition:width .35s ease}
+.plan-progress .reset{margin-inline-start:auto}
+.week{margin-bottom:16px}
+.week-head{display:flex;align-items:center;gap:12px;margin-bottom:12px;flex-wrap:wrap}
+.week-head .wk{font-family:var(--font-display);font-size:1.1rem;color:var(--gold)}
+.week-head .wk-sub{font-size:.82rem;color:var(--muted)}
+.tasks{display:grid;gap:8px}
+.task{display:flex;gap:12px;align-items:flex-start;padding:12px 14px;border-radius:14px;
+  border:1px solid var(--line-soft);background:rgba(255,255,255,.022);cursor:pointer;
+  transition:background .2s,border-color .2s}
+.task:hover{background:rgba(227,194,126,.05);border-color:rgba(227,194,126,.22)}
+.task input{appearance:none;-webkit-appearance:none;flex:0 0 auto;width:24px;height:24px;margin:2px 0 0;
+  border-radius:7px;border:1.6px solid rgba(227,194,126,.45);background:rgba(0,0,0,.28);
+  cursor:pointer;position:relative;transition:background .2s,border-color .2s}
+.task input:checked{background:linear-gradient(135deg,var(--teal),#1aa896);border-color:transparent}
+.task input:checked::after{content:"";position:absolute;inset-inline-start:7px;top:3px;width:6px;height:11px;
+  border:solid #05120f;border-width:0 2.5px 2.5px 0;transform:rotate(45deg)}
+.task .t-txt{font-size:.92rem;color:var(--text);transition:color .2s}
+.task .t-meta{display:block;font-size:.76rem;color:var(--muted);margin-top:3px}
+.task.done .t-txt{color:#7f8da1;text-decoration:line-through}
+.task.done{border-color:rgba(47,208,187,.3);background:rgba(47,208,187,.05)}
+
+/* ---------- بوابة القفل ---------- */
+.lock{position:fixed;inset:0;z-index:220;display:grid;place-items:center;padding:20px;
+  background:radial-gradient(circle at 50% 15%,rgba(227,194,126,.14),transparent 55%),rgba(3,5,9,.97);
+  -webkit-backdrop-filter:blur(8px);backdrop-filter:blur(8px)}
+.lock[hidden]{display:none}
+.lock-card{width:100%;max-width:410px;text-align:center;padding:34px 26px 26px;border-radius:26px;
+  border:1px solid rgba(227,194,126,.22);background:linear-gradient(165deg,rgba(26,33,48,.98),rgba(8,12,19,.99));
+  box-shadow:0 40px 90px rgba(0,0,0,.65)}
+.lock-card.shake{animation:shake .42s cubic-bezier(.36,.07,.19,.97) both}
+@keyframes shake{10%,90%{transform:translateX(-2px)}20%,80%{transform:translateX(4px)}
+30%,50%,70%{transform:translateX(-8px)}40%,60%{transform:translateX(8px)}}
+.lock-logo{font-family:var(--font-display);font-size:2.2rem;line-height:1.2;
+  background:linear-gradient(180deg,#fff8e6,var(--gold) 55%,#a9822f);
+  -webkit-background-clip:text;background-clip:text;color:transparent;margin-bottom:4px}
+.lock-card h2{font-size:1.15rem;color:var(--text);margin:0 0 4px}
+.lock-sub{color:var(--muted);font-size:.86rem;margin-bottom:18px}
+.lock form{display:flex;flex-direction:column;gap:10px}
+.lock-input{width:100%;height:52px;text-align:center;letter-spacing:.45em;font-size:20px;
+  border-radius:13px;background:rgba(0,0,0,.4);border:1px solid rgba(255,255,255,.14);
+  color:var(--gold-soft);font-family:var(--font-body);direction:ltr}
+.lock-input:focus{outline:none;border-color:rgba(227,194,126,.6);box-shadow:0 0 0 3px rgba(227,194,126,.12)}
+.lock-error{min-height:22px;margin:10px 0 0;font-size:.83rem;color:#ff8a8a;font-weight:700}
+.lock-hint{margin:10px 0 0;font-size:.72rem;color:#6f7d91;line-height:1.7}
+
+/* ---------- الحركة عند الظهور ---------- */
+.js .reveal{opacity:0;transform:translateY(18px);
+  transition:opacity .6s ease,transform .6s cubic-bezier(.21,.7,.28,1)}
+.js .reveal.in{opacity:1;transform:none}
+.js .reveal:nth-child(2){transition-delay:.06s}
+.js .reveal:nth-child(3){transition-delay:.12s}
+.js .reveal:nth-child(4){transition-delay:.18s}
+
+/* ---------- الفوتر ---------- */
+.site-footer{position:relative;z-index:1;margin-top:20px;padding:30px 0 calc(30px + env(safe-area-inset-bottom));
+  border-top:1px solid var(--line-soft);color:#7f8da1;font-size:.82rem;text-align:center}
+.site-footer b{color:var(--gold)}
+.site-footer p{margin:0 0 6px}
+
+/* ---------- شريط التنقل السفلي ---------- */
+.bottom-nav{display:none}
+
+/* ---------- عدم التمرير الأفقي ---------- */
+html,body{max-width:100%}
+
+/* ============================================================
+   الموبايل
+   ============================================================ */
+@media (max-width:900px){
+  .grid-4{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .grid-3{grid-template-columns:repeat(2,minmax(0,1fr))}
+}
+@media (max-width:820px){
+  .top-nav{display:none}
+  :root{--header-h:58px}
+  .wrap{width:min(1180px,100% - 26px)}
+  body{padding-bottom:calc(74px + env(safe-area-inset-bottom))}
+  .orb{filter:blur(48px);opacity:.42;animation:none!important}
+  .orb-1{width:280px;height:280px;top:-90px;inset-inline-end:-90px}
+  .orb-2{width:300px;height:300px;bottom:-120px;inset-inline-start:-110px}
+  .orb-3{display:none}
+  .stats{grid-template-columns:repeat(2,1fr);gap:10px}
+  .grid-2,.grid-3,.grid-4{grid-template-columns:1fr}
+  .header-inner{min-height:var(--header-h);gap:8px}
+  .brand-mark{width:34px;height:34px;border-radius:10px;font-size:1rem}
+  .brand-text{font-size:1rem}
+  .brand-text small{font-size:.62rem}
+  .icon-btn{padding:0 11px;font-size:.78rem;gap:5px}
+  .icon-btn .lbl{display:none}
+  .hero{padding-top:34px}
+  .hero-cta .btn{flex:1 1 auto}
+  .toolbar{padding:12px;gap:10px}
+  .chips{width:100%}
+  .chip{flex:1 1 auto;padding:0 12px;font-size:.82rem}
+  .toolbar-meta{width:100%;justify-content:space-between;margin-inline-start:0}
+  .section-head{margin-bottom:16px}
+  .header-actions{margin-inline-start:auto}
+
+  /* الجداول تتحول إلى كروت */
+  .table-wrap{overflow:visible;border:none;background:none;border-radius:0}
+  table{min-width:0;display:block;font-size:.9rem}
+  thead{display:none}
+  tbody{display:block}
+  tbody tr{display:block;margin-bottom:12px;padding:6px 14px;border-radius:16px;
+    border:1px solid var(--line-soft);background:linear-gradient(165deg,rgba(255,255,255,.05),rgba(255,255,255,.015))}
+  tbody tr:nth-child(even){background:linear-gradient(165deg,rgba(255,255,255,.05),rgba(255,255,255,.015))}
+  tbody tr[hidden]{display:none!important}
+  tbody td{display:flex;gap:12px;align-items:flex-start;padding:9px 0;border-bottom:1px dashed rgba(255,255,255,.07);
+    font-size:.88rem;white-space:normal!important}
+  tbody td:last-child{border-bottom:none}
+  tbody td::before{content:attr(data-label);flex:0 0 38%;max-width:38%;color:var(--gold);
+    font-size:.74rem;font-weight:800;line-height:1.7;padding-top:2px}
+  tbody td:first-child{color:var(--gold);font-size:.9rem}
+  tbody td:first-child::before{color:var(--muted)}
+  tbody td .badge{margin-inline-end:5px}
+  /* خانة المصدر فيها شارة + نص: نجعل العنوان فوق القيمة لتفادي تكسّر السطر */
+  tbody td[data-label="المصدر"]{display:block}
+  tbody td[data-label="المصدر"]::before{display:block;max-width:none;margin-bottom:1px}
+
+  /* إلغاء تأثيرات اللمس */
+  .card:hover{transform:none;box-shadow:none;border-color:var(--line-soft)}
+  .task:hover{background:rgba(255,255,255,.022);border-color:var(--line-soft)}
+  .btn-gold:hover{transform:none}
+  .top-nav a:hover{background:none}
+
+  /* الشريط السفلي */
+  .bottom-nav{display:flex;position:fixed;inset-inline:0;bottom:0;z-index:100;
+    padding:6px 4px calc(6px + env(safe-area-inset-bottom));
+    background:rgba(7,11,18,.94);-webkit-backdrop-filter:blur(18px);backdrop-filter:blur(18px);
+    border-top:1px solid rgba(227,194,126,.18)}
+  .bottom-nav a{flex:1 1 0;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:3px;
+    min-height:56px;padding:4px 2px;border-radius:12px;color:#8b99ad;font-size:.66rem;font-weight:700;
+    transition:color .2s,background .2s}
+  .bottom-nav svg{width:21px;height:21px;stroke:currentColor;fill:none;stroke-width:1.7;
+    stroke-linecap:round;stroke-linejoin:round}
+  .bottom-nav a.active{color:var(--gold);background:rgba(227,194,126,.08)}
+  .bottom-nav a.active svg{filter:drop-shadow(0 0 8px rgba(227,194,126,.45))}
+  .site-footer{padding-bottom:calc(18px + env(safe-area-inset-bottom));font-size:.76rem}
+}
+
+/* ---------- الطباعة ---------- */
+@media print{
+  @page{margin:14mm}
+  html,body{background:#fff!important;color:#000!important}
+  body{padding:0!important;font-size:11pt}
+  .orb,#readbar,.site-header,.bottom-nav,.site-footer,.lock,.no-print{display:none!important}
+  main{display:block!important}
+  section.view{display:none!important}
+  section.view.active{display:block!important;animation:none!important}
+  .card,.note,.table-wrap,.plan-progress,.task{border-color:#bbb!important;background:#fff!important;
+    box-shadow:none!important;color:#000!important}
+  h1,h2,h3,h4,.hero h1,.brand,.stat b,.week-head .wk{color:#000!important;
+    -webkit-text-fill-color:#000!important;background:none!important}
+  p,li,td,.card p,.step p,.note{color:#111!important}
+  .hero{padding:0 0 8mm!important}
+  .hero .lede{color:#222!important}
+  .stats{margin:6mm 0}
+  .stat{padding:4mm;border:1px solid #999!important}
+  .table-wrap{overflow:visible!important;border:1px solid #999!important;border-radius:0!important}
+  table{min-width:0!important;width:100%!important;font-size:9pt;border-collapse:collapse!important}
+  thead{display:table-header-group!important}
+  tbody{display:table-row-group!important}
+  thead th{position:static!important;background:#e9e9e9!important;color:#000!important;
+    border:1px solid #999!important}
+  tbody tr{display:table-row!important;background:#fff!important}
+  tbody td{display:table-cell!important;border:1px solid #bbb!important;color:#000!important;
+    padding:2.2mm 2mm!important}
+  tbody td::before{content:none!important}
+  .badge{border:1px solid #777!important;color:#000!important;background:#fff!important}
+  .reveal{opacity:1!important;transform:none!important;transition:none!important}
+  .task input{border:1px solid #000!important;background:#fff!important}
+  a{color:#000!important;text-decoration:underline}
+  .grid-2,.grid-3,.grid-4{display:block!important}
+  .card{margin-bottom:4mm;page-break-inside:avoid}
+  tr{page-break-inside:avoid}
+}
+
+/* ---------- تقليل الحركة ---------- */
+@media (prefers-reduced-motion: reduce){
+  html{scroll-behavior:auto}
+  *,*::before,*::after{animation-duration:.001ms!important;animation-iteration-count:1!important;
+    transition-duration:.001ms!important;scroll-behavior:auto!important}
+  .js .reveal{opacity:1!important;transform:none!important}
+  .orb{animation:none!important}
+}
+</style>
+</head>
+<body>
+
+<noscript>
+  <style>
+    /* بدون JavaScript: نعرض كل الأقسام ونفتح القفل ونجعل كل شيء ظاهرًا */
+    .lock{display:none!important}
+    section.view{display:block!important}
+    .js .reveal,.reveal{opacity:1!important;transform:none!important}
+    #readbar{display:none!important}
+  </style>
+  <div style="background:#241b0a;color:#f3dca6;padding:12px;text-align:center;font-size:.9rem;border-bottom:1px solid #e3c27e">
+    JavaScript معطّل: كل الأقسام معروضة أدناه، لكن البحث والفلترة وحفظ مهام الخطة تحتاج تشغيله.
+  </div>
+</noscript>
+
+<div class="orb orb-1" aria-hidden="true"></div>
+<div class="orb orb-2" aria-hidden="true"></div>
+<div class="orb orb-3" aria-hidden="true"></div>
+<div id="readbar" aria-hidden="true"></div>
+
+<!-- بوابة الرمز: حماية واجهة فقط — ليست أمانًا حقيقيًا (الكود مقروء بالكامل) -->
+<div id="lock" class="lock" role="dialog" aria-modal="true" aria-labelledby="lockTitle">
+  <div class="lock-card" id="lockCard">
+    <div class="lock-logo">البروفيسور</div>
+    <h2 id="lockTitle">بوابة الدخول</h2>
+    <p class="lock-sub">أدخل رمز الدخول للمتابعة إلى الخلاصة التنفيذية</p>
+    <form id="lockForm" autocomplete="off" novalidate>
+      <input id="lockInput" class="lock-input" type="password" inputmode="numeric" maxlength="12"
+             placeholder="••••••" aria-label="رمز الدخول" autocomplete="off" />
+      <button class="btn btn-gold" type="submit">دخول</button>
+    </form>
+    <p id="lockError" class="lock-error" role="alert" aria-live="polite"></p>
+    <p class="lock-hint">هذه الحماية واجهة بصرية فقط ولا تحمي المحتوى فعليًا — المحتوى كله موجود داخل الملف.</p>
+  </div>
+</div>
+
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a class="brand" href="#home" aria-label="البروفيسور — الرئيسية">
+      <span class="brand-mark" aria-hidden="true">ال</span>
+      <span class="brand-text">البروفيسور<small>خلاصة كتابين · خطة 30 يوم</small></span>
+    </a>
+
+    <nav class="top-nav" aria-label="التنقل الرئيسي">
+      <a href="#home" data-nav="home">الرئيسية</a>
+      <a href="#tips" data-nav="tips">أهم النصائح</a>
+      <a href="#psy" data-nav="psy">الكتاب ١</a>
+      <a href="#nlp" data-nav="nlp">الكتاب ٢</a>
+      <a href="#plan" data-nav="plan">الخطة</a>
+    </nav>
+
+    <div class="header-actions">
+      <button class="icon-btn" id="lockBtn" type="button" aria-label="قفل الموقع">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true">
+          <rect x="4" y="10" width="16" height="10" rx="2.5"></rect>
+          <path d="M8 10V7a4 4 0 0 1 8 0v3"></path>
+        </svg>
+        <span class="lbl">قفل</span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main id="app">
+
+  <!-- ======================= الرئيسية ======================= -->
+  <section id="home" class="view active" aria-labelledby="homeTitle">
+    <div class="wrap hero">
+      <span class="eyebrow"><span class="dot" aria-hidden="true"></span>خلاصة تنفيذية · علم النفس والاتصال</span>
+      <h1 id="homeTitle">البروفيسور</h1>
+      <p class="lede">
+        كتابان في <strong>علم النفس الإيجابي</strong> و<strong>الاتصال اللامحدود</strong>،
+        مضغوطان في <strong>30 نصيحة عملية</strong>، و<strong>20 مبدأً وفصلًا</strong>،
+        و<strong>خطة 30 يومًا</strong> قابلة للتنفيذ اليوم — بدون حشو.
+      </p>
+      <div class="hero-cta">
+        <a class="btn btn-gold" href="#tips">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 11l3 3L22 4"></path><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"></path></svg>
+          ابدأ بأهم النصائح
+        </a>
+        <a class="btn btn-ghost" href="#plan">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="18" height="18" rx="2"></rect><path d="M16 2v4M8 2v4M3 10h18"></path></svg>
+          خطة 30 يومًا
+        </a>
+      </div>
+      <p class="hero-note">يعمل بفتح الملف مباشرة · بدون إنترنت · بدون مكتبات خارجية</p>
+
+      <div class="stats">
+        <div class="stat reveal"><b>30</b><span>نصيحة عملية</span></div>
+        <div class="stat reveal"><b>20</b><span>فصلًا ومبدأً</span></div>
+        <div class="stat reveal"><b>4</b><span>أدوات NLP</span></div>
+        <div class="stat reveal"><b>20</b><span>مهمة تنفيذية</span></div>
+      </div>
+    </div>
+
+    <div class="wrap pad" style="padding-top:0">
+      <div class="section-head reveal">
+        <div>
+          <span class="kicker">الكتابان</span>
+          <h2>مصدران، <em>منطق واحد</em></h2>
+          <p>الأول يبني الطاقة والتفكير الإيجابي، والثاني يحوّل ذلك إلى لغة اتصال وتأثير. الخلاصة تجمعهما في مسار واحد.</p>
+        </div>
+      </div>
+
+      <div class="grid grid-2">
+        <article class="card book reveal">
+          <span class="book-tag">الكتاب الأول · علم النفس</span>
+          <h3>إطلاق طاقات الحياة: قراءات في علم النفس الإيجابي</h3>
+          <p class="author">د. مصطفى حجازي · 8 فصول</p>
+          <p>قراءة في علم النفس الإيجابي تنقل التركيز من علاج الاضطراب إلى بناء القدرات: الطاقة الحية، التفكير الإيجابي، الأمل، الدافعية الداخلية، الاقتدار، والقيادة التحويلية.</p>
+          <ul>
+            <li>يناسب من يريد تحسين المزاج والطاقة والالتزام.</li>
+            <li>العمل عليه: فهم الآلية ثم تمرين يومي صغير.</li>
+            <li>الخلاصة هنا: 8 فصول + 15 نصيحة تطبيقية.</li>
+          </ul>
+          <a class="book-link" href="#psy">افتح جدول الفصول ←</a>
+        </article>
+
+        <article class="card book nlp reveal">
+          <span class="book-tag">الكتاب الثاني · الاتصال</span>
+          <h3>البرمجة اللغوية العصبية وفن الاتصال اللامحدود</h3>
+          <p class="author">د. إبراهيم الفقي · 2001</p>
+          <p>منظومة اتصال عملية: خرائط الإدراك، الألفة، الأنظمة التمثيلية، المراسي، إعادة التأطير، وتوحيد النية — أدوات تُستخدم في المحادثة اليومية وفي إدارة الذات.</p>
+          <ul>
+            <li>يناسب من يريد تحسين الحوار والإقناع وإدارة الحالة.</li>
+            <li>العمل عليه: مبدأ واحد + محادثة واحدة يوميًا.</li>
+            <li>الخلاصة هنا: 12 مبدأً + 4 أدوات + 15 نصيحة.</li>
+          </ul>
+          <a class="book-link" href="#nlp">افتح جدول المبادئ ←</a>
+        </article>
+      </div>
+
+      <div class="note reveal" style="margin-top:18px">
+        <span class="note-ico" aria-hidden="true">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="9"></circle><path d="M12 8h.01M11 12h1v5h1"></path></svg>
+        </span>
+        <p><b>ملاحظة أمانة المحتوى:</b> نسختا الكتابين المتوفرتان هنا سكان (صور) بلا طبقة نص قابلة للاستخراج، لذلك هذا الموقع <b>خلاصة عملية</b> مبنية على بنية الكتابين ومحاورهما المنشورة، وليست اقتباسًا حرفيًا من صفحاتهما. عند الحاجة إلى الدقة الحرفية ارجع إلى النسخة الورقية أو الأصلية.</p>
+      </div>
+    </div>
+
+    <div class="wrap pad" style="padding-top:0">
+      <div class="section-head reveal">
+        <div>
+          <span class="kicker">الزُبدة</span>
+          <h2>أقوى <em>ستة مبادئ</em></h2>
+          <p>لو لم تقرأ شيئًا آخر، ابدأ من هنا. ثلاثة من علم النفس وثلاثة من الاتصال.</p>
+        </div>
+      </div>
+
+      <div class="grid grid-3">
+        <article class="card reveal">
+          <span class="num">١</span>
+          <h3>ابنِ ما يزدهر، لا ما يؤلم فقط</h3>
+          <p>علم النفس الإيجابي لا ينكر الألم، لكنه يسأل: ما القدرات التي تحتاج نموًا؟ السؤال يغيّر اتجاه الانتباه والسلوك.</p>
+        </article>
+        <article class="card reveal">
+          <span class="num">٢</span>
+          <h3>الأمل = هدف + طريق</h3>
+          <p>التفاؤل وحده تمنٍّ. الأمل الحقيقي يقرن توقع نتيجة جيدة بخطة وأول خطوة قابلة للتنفيذ اليوم.</p>
+        </article>
+        <article class="card reveal">
+          <span class="num">٣</span>
+          <h3>الانفعالات الإيجابية توسّع التفكير</h3>
+          <p>الامتنان والفرح لا يشعرانك أفضل فقط، بل يوسّعان الانتباه ويبنيان موارد نفسية واجتماعية تدوم.</p>
+        </article>
+        <article class="card reveal">
+          <span class="num">٤</span>
+          <h3>الخريطة ليست المنطقة</h3>
+          <p>كل شخص يتصرف وفق خريطته عن الواقع لا وفق الواقع. اسأل عن الخريطة قبل أن تصحّح السلوك.</p>
+        </article>
+        <article class="card reveal">
+          <span class="num">٥</span>
+          <h3>لا فشل، بل تغذية راجعة</h3>
+          <p>النتيجة غير المرغوبة معلومة عن الفارق بين ما فعلته وما تحتاجه. غيّر الاسم يتغيّر السلوك.</p>
+        </article>
+        <article class="card reveal">
+          <span class="num">٦</span>
+          <h3>الألفة تسبق التأثير</h3>
+          <p>لا رسالة تعبر قبل أن يشعر الآخر بأنه مفهوم. الألفة ليست تملّقًا، بل مطابقة إيقاع ثم قيادة بلطف.</p>
+        </article>
+      </div>
+    </div>
+
+    <div class="wrap pad" style="padding-top:0">
+      <div class="section-head reveal">
+        <div>
+          <span class="kicker">طريقة الاستخدام</span>
+          <h2>ثلاث خطوات <em>فقط</em></h2>
+        </div>
+      </div>
+      <div class="grid grid-3">
+        <article class="card reveal step">
+          <span class="step-n">١</span>
+          <div><h4>اختر ثلاث نصائح</h4><p>افتح «أهم النصائح»، استخدم البحث أو الفلترة، واختر ثلاثًا فقط لهذا الأسبوع: واحدة للطاقة، واحدة للتفكير، واحدة للاتصال.</p></div>
+        </article>
+        <article class="card reveal step">
+          <span class="step-n">٢</span>
+          <div><h4>افهم الآلية</h4><p>لكل نصيحة «لماذا تعمل» و«كيف تطبقها اليوم». وإن أردت العمق، اقرأ الفصل أو المبدأ المرتبط في قسمي الكتابين.</p></div>
+        </article>
+        <article class="card reveal step">
+          <span class="step-n">٣</span>
+          <div><h4>ثبّتها في الخطة</h4><p>انتقل إلى «خطة 30 يومًا»، علّم المهام المنجزة، وراجع مؤشراتك كل أسبوع. التقدم محفوظ في متصفحك.</p></div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======================= أهم النصائح ======================= -->
+  <section id="tips" class="view" aria-labelledby="tipsTitle">
+    <div class="wrap pad">
+      <div class="section-head reveal">
+        <div>
+          <span class="kicker">15 + 15</span>
+          <h2 id="tipsTitle">أهم <em>30 نصيحة</em> عملية</h2>
+          <p>كل نصيحة في سطر تنفيذي: ماذا تفعل، لماذا يعمل، وكيف تطبقه قبل نهاية اليوم. ابحث أو فلتر حسب الكتاب.</p>
+        </div>
+      </div>
+
+      <div class="toolbar no-print">
+        <div class="search-wrap">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"></circle><path d="M20 20l-3.5-3.5"></path></svg>
+          <input id="tipSearch" type="search" placeholder="ابحث: الامتنان، الألفة، النوم..." aria-label="بحث في النصائح" />
+        </div>
+        <div class="chips" role="group" aria-label="فلترة حسب الكتاب">
+          <button class="chip active" type="button" data-filter="all">الكل</button>
+          <button class="chip" type="button" data-filter="psy">علم النفس</button>
+          <button class="chip" type="button" data-filter="nlp">NLP</button>
+        </div>
+        <div class="toolbar-meta">
+          <span id="tipCount" aria-live="polite"><b>30</b> من 30 نصيحة</span>
+          <button class="btn btn-ghost btn-sm" id="printBtn" type="button">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 9V3h12v6"></path><rect x="4" y="9" width="16" height="8" rx="2"></rect><path d="M8 17h8v4H8z"></path></svg>
+            طباعة / PDF
+          </button>
+        </div>
+      </div>
+
+      <div class="table-wrap">
+        <table id="tipsTable">
+          <caption class="no-print">الجدول يعرض 30 نصيحة — 15 من كل كتاب. على الجوال يتحول كل صف إلى كارت.</caption>
+          <thead>
+            <tr>
+              <th scope="col">#</th>
+              <th scope="col">النصيحة العملية</th>
+              <th scope="col">المصدر</th>
+              <th scope="col">لماذا تعمل</th>
+              <th scope="col">كيف تطبقها اليوم</th>
+            </tr>
+          </thead>
+          <tbody id="tipsBody">
+
+            <!-- ===== علم النفس (15) ===== -->
+            <tr data-book="psy">
+              <td data-label="#">1</td>
+              <td data-label="النصيحة العملية"><span class="cell-strong">اكتب ثلاث نعم محددة قبل النوم.</span></td>
+              <td data-label="المصدر"><span class="badge psy">علم النفس</span>الانفعالات الإيجابية وحسن الحال</td>
+              <td data-label="لماذا تعمل">توجيه الانتباه إلى ما هو موجود يقاوم الانحياز السلبي الطبيعي، فيرتفع الرضا دون تغيير الواقع.</td>
+              <td data-label="كيف تطبقها اليوم">ضع دفترًا بجانب السرير واكتب ثلاث جمل محددة (شخص، حدث، تفصيل) لا كلمة «الحمد لله» فقط.</td>
+            </tr>
+            <tr data-book="psy">
+              <td data-label="#">2</td>
+              <td data-label="النصيحة العملية"><span class="cell-strong">اكتب «أفضل ذات ممكنة» لخمس دقائق.</span></td>
+              <td data-label="المصدر"><span class="badge psy">علم النفس</span>التفاؤل والأمل</td>
+              <td data-label="لماذا تعمل">الصورة المستقبلية المفصّلة تعمل كبوصلة قرارات، فتقصّر الفجوة بين النية والسلوك.</td>
+              <td data-label="كيف تطبقها اليوم">اكتب صفحة واحدة بزمن المضارع تصف يومك بعد سنة: عملك، صحتك، علاقاتك، ثم استخرج عادة واحدة.</td>
+            </tr>
+            <tr data-book="psy">
+              <td data-label="#">3</td>
+              <td data-label="النصيحة العملية"><span class="cell-strong">افصل الحدث عن التفسير.</span></td>
+              <td data-label="المصدر"><span class="badge psy">علم النفس</span>آليات التفكير الإيجابي</td>
+              <td data-label="لماذا تعمل">معظم الألم يأتي من القصة لا من الحدث؛ والفصل يمنع تحويل الاستنتاج إلى حقيقة.</td>
+              <td data-label="كيف تطبقها اليوم">في أول موقف مزعج، اكتب سطرين: «حدث كذا» ثم «قصتي عنه كذا»، ثم اكتب تفسيرًا بديلًا واحدًا معقولًا.</td>
+            </tr>
+            <tr data-book="psy">
+              <td data-label="#">4</td>
+              <td data-label="النصيحة العملية"><span class="cell-strong">حوّل الشكوى إلى طلب واضح.</span></td>
+              <td data-label="المصدر"><span class="badge psy">علم النفس</span>آليات التفكير الإيجابي</td>
+              <td data-label="لماذا تعمل">الشكوى تدير العقل في وضع الرصد، والسؤال «ما الذي أريده؟» ينقله إلى وضع الحل.</td>
+              <td data-label="كيف تطبقها اليوم">كل مرة تقول «هذا مزعج»، أضف فورًا: «أريد أن يصبح كذا»، وحدد طلبًا واحدًا يمكنك تنفيذه.</td>
+            </tr>
+            <tr data-book="psy">
+              <td data-label="#">5</td>
+              <td data-label="النصيحة العملية"><span class="cell-strong">طبّق قاعدة أصغر خطوة: قلّل المهمة إلى 5 دقائق.</span></td>
+              <td data-label="المصدر"><span class="badge psy">علم النفس</span>الدافعية الجوانية</td>
+              <td data-label="لماذا تعمل">البدء يولّد الدافعية، وليس العكس؛ فتصغير العتبة يهزم التسويف.</td>
+              <td data-label="كيف تطبقها اليوم">اختر مهمة مؤجلة وحدد نسختها ذات الخمس دقائق (افتح الملف، اكتب أول سطر) ونفّذها الآن.</td>
+            </tr>
+            <tr data-book="psy">
+              <td data-label="#">6</td>
+              <td data-label="النصيحة العملية"><span class="cell-strong">اكتب جملة معنى قبل المهمة.</span></td>
+              <td data-label="المصدر"><span class="badge psy">علم النفس</span>الدافعية الجوانية</td>
+              <td data-label="لماذا تعمل">الدافع الداخلي (المعنى والاختيار والكفاءة) يصمد أطول من المكافأة الخارجية.</td>
+              <td data-label="كيف تطبقها اليوم">قبل أول مهمة اكتب: «أفعل هذا لأن…» واربطها بقيمة أو شخص أو هدف بعيد.</td>
+            </tr>
+            <tr data-book="psy">
+              <td data-label="#">7</td>
+              <td data-label="النصيحة العملية"><span class="cell-strong">استثمر في موهبة واحدة بدل إصلاح كل ضعف.</span></td>
+              <td data-label="المصدر"><span class="badge psy">علم النفس</span>الاقتدار الإنساني</td>
+              <td data-label="لماذا تعمل">الشعور بالكفاءة يغذي الثقة والمبادرة، وتحسين نقطة قوة يعطي أثرًا أسرع من مطاردة كل نقص.</td>
+              <td data-label="كيف تطبقها اليوم">حدد مهارة واحدة تتقنها جزئيًا وخصّص لها 20 دقيقة تمرينًا مقصودًا، وسجّل ما تحسّن.</td>
+            </tr>
+            <tr data-book="psy">
+              <td data-label="#">8</td>
+              <td data-label="النصيحة العملية"><span class="cell-strong">اطلب تغذية راجعة محددة لا عامة.</span></td>
+              <td data-label="المصدر"><span class="badge psy">علم النفس</span>الاقتدار الإنساني</td>
+              <td data-label="لماذا تعمل">«ما رأيك؟» ينتج مجاملة؛ السؤال المحدد ينتج معلومة قابلة للتعديل.</td>
+              <td data-label="كيف تطبقها اليوم">اسأل شخصًا واحدًا: «ما الشيء الواحد الذي لو تغيّر لكان العمل أفضل؟» واشكره دون تبرير.</td>
+            </tr>
+            <tr data-book="psy">
+              <td data-label="#">9</td>
+              <td data-label="النصيحة العملية"><span class="cell-strong">اشرح «لماذا» قبل «ماذا».</span></td>
+              <td data-label="المصدر"><span class="badge psy">علم النفس</span>القيادة التحويلية</td>
+              <td data-label="لماذا تعمل">التحفيز بالمعنى يرفع الالتزام الداخلي، بخلاف الأمر الذي يُنتج طاعة مؤقتة.</td>
+              <td data-label="كيف تطبقها اليوم">في أول تكليف أو رسالة، ابدأ بجملة سبب واحدة واضحة، ثم اطلب المهمة والموعد.</td>
+            </tr>
+            <tr data-book="psy">
+              <td data-label="#">10</td>
+              <td data-label="النصيحة العملية"><span class="cell-strong">قدّر جهدًا محددًا بالاسم.</span></td>
+              <td data-label="المصدر"><span class="badge psy">علم النفس</span>القيادة التحويلية</td>
+              <td data-label="لماذا تعمل">التقدير المحدد يُشعر الشخص بأنه مرئي، ويبني ثقة أسرع من المدح العام.</td>
+              <td data-label="كيف تطبقها اليوم">قل لشخصين: «لاحظت أنك فعلت كذا، وهذا أثّر فيّ بكذا» — بلا «لكن» بعدها.</td>
+            </tr>
+            <tr data-book="psy">
+              <td data-label="#">11</td>
+              <td data-label="النصيحة العملية"><span class="cell-strong">راجع يومك بثلاثة أسئلة.</span></td>
+              <td data-label="المصدر"><span class="badge psy">علم النفس</span>أسس علم النفس الإيجابي</td>
+              <td data-label="لماذا تعمل">المراجعة القصيرة تحوّل الخبرة إلى تعلّم، وتمنع تكرار الخطأ نفسه أسبوعًا كاملًا.</td>
+              <td data-label="كيف تطبقها اليوم">قبل النوم: ما الذي نجح؟ ما الذي تعلّمته؟ ما أول خطوة غدًا؟ — ثلاث جمل فقط.</td>
+            </tr>
+            <tr data-book="psy">
+              <td data-label="#">12</td>
+              <td data-label="النصيحة العملية"><span class="cell-strong">خصّص 20 دقيقة حركة يوميًا.</span></td>
+              <td data-label="المصدر"><span class="badge psy">علم النفس</span>إطلاق الطاقات الحية</td>
+              <td data-label="لماذا تعمل">الطاقة النفسية مرتبطة بالطاقة الجسدية: الحركة ترفع المزاج وتقلل التوتر وتحسّن النوم.</td>
+              <td data-label="كيف تطبقها اليوم">مشي سريع 20 دقيقة بعد وجبة، أو تمرين منزلي قصير — دون انتظار «الوقت المثالي».</td>
+            </tr>
+            <tr data-book="psy">
+              <td data-label="#">13</td>
+              <td data-label="النصيحة العملية"><span class="cell-strong">ثبّت نافذة نومك سبعة أيام.</span></td>
+              <td data-label="المصدر"><span class="badge psy">علم النفس</span>إطلاق الطاقات الحية</td>
+              <td data-label="لماذا تعمل">انتظام الإيقاع اليومي ينظّم الهرمونات والمزاج والتركيز أكثر من عدد الساعات وحده.</td>
+              <td data-label="كيف تطبقها اليوم">حدد وقت نوم واستيقاظ، واضبط منبهًا للاثنين، وأوقف الشاشات قبل النوم بـ30 دقيقة.</td>
+            </tr>
+            <tr data-book="psy">
+              <td data-label="#">14</td>
+              <td data-label="النصيحة العملية"><span class="cell-strong">ضع حدًا زمنيًا للأخبار السلبية.</span></td>
+              <td data-label="المصدر"><span class="badge psy">علم النفس</span>الانفعالات الإيجابية وحسن الحال</td>
+              <td data-label="لماذا تعمل">التعرض المتكرر للمحتوى المزعج يبقي الجهاز العصبي في حالة تأهب ويستهلك الانتباه.</td>
+              <td data-label="كيف تطبقها اليوم">حدد نافذة واحدة (10 دقائق) وأوقف الإشعارات، واستبدل وقت التصفح بمكالمة أو مشي.</td>
+            </tr>
+            <tr data-book="psy">
+              <td data-label="#">15</td>
+              <td data-label="النصيحة العملية"><span class="cell-strong">استثمر في علاقة واحدة هذا الأسبوع.</span></td>
+              <td data-label="المصدر"><span class="badge psy">علم النفس</span>الانفعالات الإيجابية وحسن الحال</td>
+              <td data-label="لماذا تعمل">جودة العلاقات من أقوى منبئات حسن الحال والرضا طويل المدى.</td>
+              <td data-label="كيف تطبقها اليوم">اتصل بشخص مهم لم تتحدث معه منذ شهرين، واسأل عن تفصيل صغير في حياته.</td>
+            </tr>
+
+            <!-- ===== NLP (15) ===== -->
+            <tr data-book="nlp">
+              <td data-label="#">16</td>
+              <td data-label="النصيحة العملية"><span class="cell-strong">اسأل عن خريطته قبل أن تصحّح سلوكه.</span></td>
+              <td data-label="المصدر"><span class="badge nlp">NLP</span>الخريطة ليست المنطقة</td>
+              <td data-label="لماذا تعمل">الناس يتصرفون وفق تمثيلهم الداخلي لا وفق الواقع، فالسؤال يفتح بابًا بدل أن يغلق عقلًا.</td>
+              <td data-label="كيف تطبقها اليوم">في أول خلاف قل: «كيف ترى الموقف؟» واستمع 30 ثانية دون مقاطعة قبل أن ترد.</td>
+            </tr>
+            <tr data-book="nlp">
+              <td data-label="#">17</td>
+              <td data-label="النصيحة العملية"><span class="cell-strong">ابحث عن النية الإيجابية خلف السلوك.</span></td>
+              <td data-label="المصدر"><span class="badge nlp">NLP</span>كل سلوك له نية إيجابية</td>
+              <td data-label="لماذا يعمل">السلوك المزعج يخدم حاجة (حماية، انتباه، أمان)؛ والتعامل مع الحاجة أجدى من مهاجمة السلوك.</td>
+              <td data-label="كيف تطبقها اليوم">اسأل نفسك عن شخص أزعجك: «ما الذي يحاول حمايته أو الحصول عليه؟» ثم كلّمه من هذه الزاوية.</td>
+            </tr>
+            <tr data-book="nlp">
+              <td data-label="#">18</td>
+              <td data-label="النصيحة العملية"><span class="cell-strong">انتقد السلوك لا الشخص.</span></td>
+              <td data-label="المصدر"><span class="badge nlp">NLP</span>الشخص ليس سلوكه</td>
+              <td data-label="لماذا يعمل">فصل السلوك عن الهوية يمنع الدفاعية، فيستطيع الشخص تعديل الفعل دون أن يشعر بأنه مرفوض.</td>
+              <td data-label="كيف تطبقها اليوم">استبدل «أنت مهمل» بـ«هذا التقرير وصل متأخرًا؛ ما الذي يحتاج تغييرًا؟».</td>
+            </tr>
+            <tr data-book="nlp">
+              <td data-label="#">19</td>
+              <td data-label="النصيحة العملية"><span class="cell-strong">استبدل «فشلت» بـ«حصلت على تغذية راجعة».</span></td>
+              <td data-label="المصدر"><span class="badge nlp">NLP</span>لا فشل بل تغذية راجعة</td>
+              <td data-label="لماذا يعمل">إعادة التسمية تقلّل التهديد وتُبقي المعلومة، فيستمر السلوك بدل أن يتوقف عند الحكم على الذات.</td>
+              <td data-label="كيف تطبقها اليوم">بعد أي نتيجة سيئة اكتب: ماذا حدث؟ ماذا تعلّمت؟ ما التعديل الواحد؟ — واحذف كلمة فشل.</td>
+            </tr>
+            <tr data-book="nlp">
+              <td data-label="#">20</td>
+              <td data-label="النصيحة العملية"><span class="cell-strong">اسأل «ماذا تحتاج لتنجح؟» بدل «لماذا تعجز؟».</span></td>
+              <td data-label="المصدر"><span class="badge nlp">NLP</span>لديك الموارد</td>
+              <td data-label="لماذا يعمل">سؤال «لماذا» يغرق في الأسباب والتبريرات، وسؤال الموارد يفتح بحثًا عن حلول متاحة.</td>
+              <td data-label="كيف تطبقها اليوم">في مشكلة اليوم اسأل: «ما المورد الموجود عندي فعلًا؟» واكتب ثلاثة موارد + خطوة.</td>
+            </tr>
+            <tr data-book="nlp">
+              <td data-label="#">21</td>
+              <td data-label="النصيحة العملية"><span class="cell-strong">لاحظ النظام التمثيلي وحدّث لغتك.</span></td>
+              <td data-label="المصدر"><span class="badge nlp">NLP</span>الأنظمة التمثيلية</td>
+              <td data-label="لماذا يعمل">البشري يفضّل قناة (بصرية/سمعية/حسية)؛ ومخاطبتها ترفع وضوح الرسالة والانطباع بالفهم.</td>
+              <td data-label="كيف تطبقها اليوم">في محادثة، لاحظ أفعاله: «أرى/أتخيل» أو «أسمع» أو «أحس»، وردّ بعبارة من القناة نفسها.</td>
+            </tr>
+            <tr data-book="nlp">
+              <td data-label="#">22</td>
+              <td data-label="النصيحة العملية"><span class="cell-strong">ابنِ الألفة قبل الطلب.</span></td>
+              <td data-label="المصدر"><span class="badge nlp">NLP</span>الألفة تسبق التأثير</td>
+              <td data-label="لماذا يعمل">الألفة تعدّل جهوزية الطرف الآخر للاستقبال؛ والطلب قبلها يُقرأ كتهديد أو ضغط.</td>
+              <td data-label="كيف تطبقها اليوم">ابدأ محادثة صعبة بسؤال فهم حقيقي، وطابق نبرة ووتيرة متوازنة، ثم اطلب.</td>
+            </tr>
+            <tr data-book="nlp">
+              <td data-label="#">23</td>
+              <td data-label="النصيحة العملية"><span class="cell-strong">فعّل الحساسية الحسية أثناء الحديث.</span></td>
+              <td data-label="المصدر"><span class="badge nlp">NLP</span>الحساسية الحسية</td>
+              <td data-label="لماذا يعمل">تغيّر النبرة واتجاه النظر وتوتر الكتفين يحمل معلومة أسبق من الكلام.</td>
+              <td data-label="كيف تطبقها اليوم">راقب لحظة تغيّر نبرة محدثك وسل عنه بلطف: «حسّيت إنك ترددت عند النقطة دي؟».</td>
+            </tr>
+            <tr data-book="nlp">
+              <td data-label="#">24</td>
+              <td data-label="النصيحة العملية"><span class="cell-strong">اصنع مرساة لحالة تريد استدعاءها.</span></td>
+              <td data-label="المصدر"><span class="badge nlp">NLP</span>المراسي</td>
+              <td data-label="لماذا يعمل">ربط مؤشر حسّي بحالة قوية يجعل استدعاءها أسرع في لحظة الحاجة.</td>
+              <td data-label="كيف تطبقها اليوم">تذكّر موقفًا واثقًا، اضغط بإصبعك على معصمك بقوة أثناء قمة الإحساس، وكرّر 3 مرات.</td>
+            </tr>
+            <tr data-book="nlp">
+              <td data-label="#">25</td>
+              <td data-label="النصيحة العملية"><span class="cell-strong">أعد تأطير الموقف بجملة واحدة.</span></td>
+              <td data-label="المصدر"><span class="badge nlp">NLP</span>إعادة التأطير</td>
+              <td data-label="لماذا يعمل">الإطار يحدد المعنى؛ وتغيير الإطار يغيّر الاستجابة الانفعالية دون تغيير الوقائع.</td>
+              <td data-label="كيف تطبقها اليوم">خذ موقفًا يزعجك واكتب إطارين: «هذا عبء» و«هذه مسؤولية تُظهر خبرتي» — ثم اختر الأنفع.</td>
+            </tr>
+            <tr data-book="nlp">
+              <td data-label="#">26</td>
+              <td data-label="النصيحة العملية"><span class="cell-strong">اسأل عن النية العليا قبل الحل.</span></td>
+              <td data-label="المصدر"><span class="badge nlp">NLP</span>توحيد النية</td>
+              <td data-label="لماذا يعمل">كثير من الخلافات نيّة واحدة بصياغتين؛ وتوحيدها يحوّل الصراع إلى تعاون.</td>
+              <td data-label="كيف تطبقها اليوم">قل: «ما الذي يعنيه لك هذا في النهاية؟» وابحث عن الهدف المشترك ثم اطرح حلًا واحدًا.</td>
+            </tr>
+            <tr data-book="nlp">
+              <td data-label="#">27</td>
+              <td data-label="النصيحة العملية"><span class="cell-strong">استخدم المواقع الإدراكية الثلاثة قبل الرد.</span></td>
+              <td data-label="المصدر"><span class="badge nlp">NLP</span>المواقع الإدراكية الثلاثة</td>
+              <td data-label="لماذا يعمل">الانتقال من موقعك إلى موقع الآخر ثم للمراقب يوسّع الخريطة ويقلل الاندفاع.</td>
+              <td data-label="كيف تطبقها اليوم">قبل خلاف: اكتب موقفي، موقفه، ثم ما يراه طرف ثالث محايد — وناقش من الفجوة.</td>
+            </tr>
+            <tr data-book="nlp">
+              <td data-label="#">28</td>
+              <td data-label="النصيحة العملية"><span class="cell-strong">جرّب السويش لتبديل صورة مزعجة.</span></td>
+              <td data-label="المصدر"><span class="badge nlp">NLP</span>أدوات التغيير</td>
+              <td data-label="لماذا يعمل">تبديل الصورة الذهنية يغيّر الاستجابة المرتبطة بها، لأن الدماغ يتعامل مع التمثيل كتجربة.</td>
+              <td data-label="كيف تطبقها اليوم">تخيّل ذكرى مزعجة صغيرة كصورة، ضع صورة مريحة مكانها فورًا، وكرّر الانتقال 5 مرات بسرعة.</td>
+            </tr>
+            <tr data-book="nlp">
+              <td data-label="#">29</td>
+              <td data-label="النصيحة العملية"><span class="cell-strong">صُغ هدفك بالإيجاب وفي المضارع.</span></td>
+              <td data-label="المصدر"><span class="badge nlp">NLP</span>إعادة التأطير · صياغة الهدف</td>
+              <td data-label="لماذا يعمل">الدماغ يستجيب للصورة المطلوبة؛ «لا أتوتر» يستدعي التوتر، و«أتحدث بهدوء» يرسم سلوكًا.</td>
+              <td data-label="كيف تطبقها اليوم">أعد كتابة هدف واحد بصيغة: «أفعل كذا بهذه الطريقة» + دليل حسّي يخبرك أنك نجحت.</td>
+            </tr>
+            <tr data-book="nlp">
+              <td data-label="#">30</td>
+              <td data-label="النصيحة العملية"><span class="cell-strong">احترم نموذج الآخر ولا تصحّح تجربته.</span></td>
+              <td data-label="المصدر"><span class="badge nlp">NLP</span>احترام نموذج الآخر</td>
+              <td data-label="لماذا يعمل">إنكار تجربة أحدهم يولد مقاومة؛ والاعتراف بها يجعل التغيير ممكنًا من داخلها.</td>
+              <td data-label="كيف تطبقها اليوم">قل: «أفهم أن هذا مزعج بالنسبة لك» قبل أي نصيحة، ثم اسأل: «ما الذي سيساعدك؟».</td>
+            </tr>
+
+            <tr id="tipEmpty" hidden>
+              <td colspan="5" data-label="لا نتائج">لا توجد نصيحة مطابقة. جرّب كلمة أخرى أو أعد الفلتر إلى «الكل».</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======================= إطلاق طاقات الحياة ======================= -->
+  <section id="psy" class="view" aria-labelledby="psyTitle">
+    <div class="wrap pad">
+      <div class="section-head reveal">
+        <div>
+          <span class="kicker">الكتاب الأول · 8 فصول</span>
+          <h2 id="psyTitle">إطلاق <em>طاقات الحياة</em></h2>
+          <p>«قراءات في علم النفس الإيجابي» — د. مصطفى حجازي. الخريطة أدناه تجمع محور كل فصل، فكرته المركزية، وتطبيقه العملي.</p>
+        </div>
+      </div>
+
+      <div class="note reveal">
+        <span class="note-ico" aria-hidden="true">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 19V5a2 2 0 0 1 2-2h13v18H6a2 2 0 0 1-2-2z"></path><path d="M8 7h7M8 11h7"></path></svg>
+        </span>
+        <p>الهدف من الجدول ليس التلخيص الأكاديمي، بل تحويل كل فصل إلى <b>سؤال عمل</b> تستطيع الإجابة عليه هذا الأسبوع.</p>
+      </div>
+
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th scope="col">الفصل</th>
+              <th scope="col">المحور</th>
+              <th scope="col">أهم فكرة</th>
+              <th scope="col">التطبيق العملي</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td data-label="الفصل">1 · أسس علم النفس الإيجابي</td>
+              <td data-label="المحور">من إصلاح المرض إلى بناء القدرات</td>
+              <td data-label="أهم فكرة">الصحة النفسية ليست غياب الاضطراب، بل وجود قدرات وموارد تُبنى وتُنمّى.</td>
+              <td data-label="التطبيق العملي">قيّم أسبوعك بسؤال «ما الذي ازدهر؟» بجانب «ما الذي آلم؟»، واكتب موردًا واحدًا تريد تنميته.</td>
+            </tr>
+            <tr>
+              <td data-label="الفصل">2 · إطلاق الطاقات الحية</td>
+              <td data-label="المحور">الطاقة الحيوية كوقود للحياة النفسية</td>
+              <td data-label="أهم فكرة">الطاقة تُدار بالعادات ولا تُنتظر بالحافز؛ الجسم والنوم والحركة أساس الحالة النفسية.</td>
+              <td data-label="التطبيق العملي">ثبّت نافذة نوم + 20 دقيقة حركة يوميًا لمدة 7 أيام، وسجّل مستوى طاقتك من 1 إلى 10.</td>
+            </tr>
+            <tr>
+              <td data-label="الفصل">3 · آليات التفكير الإيجابي</td>
+              <td data-label="المحور">إعادة صياغة التفسير</td>
+              <td data-label="أهم فكرة">ليست الأحداث ما يؤلمنا غالبًا، بل تفسيرنا لها؛ والتفسير قابل للمراجعة.</td>
+              <td data-label="التطبيق العملي">جدول من ثلاثة أعمدة: الحدث / تفسيري / تفسير بديل معقول — لموقف واحد يوميًا.</td>
+            </tr>
+            <tr>
+              <td data-label="الفصل">4 · التفاؤل والأمل</td>
+              <td data-label="المحور">التوقع الإيجابي المرتبط بمسار</td>
+              <td data-label="أهم فكرة">الأمل = هدف + طريق؛ والتوقع بلا خطة يتحول إلى تمنٍّ يعقبه إحباط.</td>
+              <td data-label="التطبيق العملي">اكتب هدفًا واحدًا + أول خطوة + عقبة محتملة + خطة مواجهتها.</td>
+            </tr>
+            <tr>
+              <td data-label="الفصل">5 · الدافعية الجوانية</td>
+              <td data-label="المحور">الدافع من الداخل</td>
+              <td data-label="أهم فكرة">الاستقلال والكفاءة والانتماء تغذي الدافع الداخلي، والمكافأة الخارجية قد تُضعفه.</td>
+              <td data-label="التطبيق العملي">أعد كتابة مهمة مزعجة بجملة معنى، وامنح نفسك خيارًا في طريقة تنفيذها.</td>
+            </tr>
+            <tr>
+              <td data-label="الفصل">6 · الاقتدار الإنساني</td>
+              <td data-label="المحور">الكفاءة والتمكين</td>
+              <td data-label="أهم فكرة">الإحساس بالكفاءة يولّد المبادرة والمثابرة، ويُبنى بالتمرين المقصود والتغذية الراجعة.</td>
+              <td data-label="التطبيق العملي">اختر مهارة واحدة، تمرين 20 دقيقة يوميًا، واطلب ملاحظة محددة من خبير كل أسبوع.</td>
+            </tr>
+            <tr>
+              <td data-label="الفصل">7 · القيادة التحويلية</td>
+              <td data-label="المحور">التأثير بالمعنى والنموذج</td>
+              <td data-label="أهم فكرة">القائد يرفع سقف التوقعات، ويشرح المعنى، ويحترم فردية الشخص بدل توحيده قسرًا.</td>
+              <td data-label="التطبيق العملي">قبل أي تكليف: اشرح «لماذا»، وحدد النتيجة، واترك مساحة لطريقة التنفيذ.</td>
+            </tr>
+            <tr>
+              <td data-label="الفصل">8 · الانفعالات الإيجابية وحسن الحال</td>
+              <td data-label="المحور">الامتنان والرضا والعلاقات</td>
+              <td data-label="أهم فكرة">الانفعالات الإيجابية توسّع التفكير وتبني موارد نفسية واجتماعية دائمة.</td>
+              <td data-label="التطبيق العملي">ثلاث نعم محددة كل ليلة + مكالمة امتنان أسبوعية لشخص أثّر فيك.</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="grid grid-3" style="margin-top:18px">
+        <article class="card reveal"><span class="num">١</span><h3>ابدأ بالجسم</h3><p>لا تبدأ بتغيير أفكارك قبل نومك وحركتك؛ الطاقة المنخفضة تجعل كل أداة نفسية بلا أثر.</p></article>
+        <article class="card reveal"><span class="num">٢</span><h3>غيّر التفسير</h3><p>موقف واحد يوميًا، تفسير بديل واحد. بعد أسبوع ستلاحظ أن ردود فعلك أصبحت أبطأ وأذكى.</p></article>
+        <article class="card reveal"><span class="num">٣</span><h3>حوّل المعنى إلى عادة</h3><p>المعنى وحده لا يكفي: اربط كل قيمة صغيرة بفعل يومي محدد في وقت محدد.</p></article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======================= البرمجة اللغوية العصبية ======================= -->
+  <section id="nlp" class="view" aria-labelledby="nlpTitle">
+    <div class="wrap pad">
+      <div class="section-head reveal">
+        <div>
+          <span class="kicker">الكتاب الثاني · 12 مبدأً + 4 أدوات</span>
+          <h2 id="nlpTitle">فن <em>الاتصال اللامحدود</em></h2>
+          <p>«البرمجة اللغوية العصبية» — د. إبراهيم الفقي (2001). المبادئ هنا كأدوات حوار، لا كقوانين مطلقة.</p>
+        </div>
+      </div>
+
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th scope="col">المبدأ</th>
+              <th scope="col">المعنى</th>
+              <th scope="col">التطبيق في المحادثة</th>
+              <th scope="col">الخطأ الشائع</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td data-label="المبدأ">الخريطة ليست المنطقة</td>
+              <td data-label="المعنى">تصوراتنا عن الواقع ليست الواقع نفسه؛ كل شخص يتصرف وفق خريطته الخاصة.</td>
+              <td data-label="التطبيق في المحادثة">«كيف ترى الموقف؟» قبل أي تصحيح أو نصيحة.</td>
+              <td data-label="الخطأ الشائع">افتراض أن اختلافه يعني خطأه، أو أن رؤيتك هي الحقيقة.</td>
+            </tr>
+            <tr>
+              <td data-label="المبدأ">احترام نموذج الآخر</td>
+              <td data-label="المعنى">لكل شخص نموذج داخلي متماسك؛ احترامه شرط للتواصل، لا موافقة عليه.</td>
+              <td data-label="التطبيق في المحادثة">«أفهم أن هذا يبدو كذا بالنسبة لك» ثم سؤال عن التفاصيل.</td>
+              <td data-label="الخطأ الشائع">الدخول بالتصحيح المباشر: «لا، الأمر ليس كذلك».</td>
+            </tr>
+            <tr>
+              <td data-label="المبدأ">كل سلوك له نية إيجابية</td>
+              <td data-label="المعنى">السلوك يخدم حاجة داخلية (أمان، تقدير، حماية) حتى لو كانت نتيجته سيئة.</td>
+              <td data-label="التطبيق في المحادثة">«ما الذي تحاول حمايته أو الحصول عليه؟» بدل «لماذا تفعل هذا؟».</td>
+              <td data-label="الخطأ الشائع">تبرير السلوك المؤذي بدل فهم دافعه واستبداله بسلوك أنفع.</td>
+            </tr>
+            <tr>
+              <td data-label="المبدأ">الشخص ليس سلوكه</td>
+              <td data-label="المعنى">الهوية أوسع من الفعل؛ نقد الفعل لا يعني رفض الشخص.</td>
+              <td data-label="التطبيق في المحادثة">«هذه الطريقة لم تنجح» بدل «أنت فاشل في هذا».</td>
+              <td data-label="الخطأ الشائع">تحويل التقييم إلى حكم على الذات، فيرتفع الدفاع ويسقط الحل.</td>
+            </tr>
+            <tr>
+              <td data-label="المبدأ">لا فشل بل تغذية راجعة</td>
+              <td data-label="المعنى">كل نتيجة معلومة عن الفارق بين ما فعلته وما تحتاجه.</td>
+              <td data-label="التطبيق في المحادثة">«ماذا تعلّمنا من هذه النتيجة؟ ما التعديل القادم؟».</td>
+              <td data-label="الخطأ الشائع">استخدام العبارة لتجميل الإخفاق دون استخراج تعديل فعلي.</td>
+            </tr>
+            <tr>
+              <td data-label="المبدأ">لديك الموارد</td>
+              <td data-label="المعنى">غالبًا تملك ما تحتاجه أو يمكنك بناءه؛ المشكلة في الوصول لا في الوجود.</td>
+              <td data-label="التطبيق في المحادثة">«ما الموجود عندك الآن؟ من يمكن أن يساعد؟ ما أصغر خطوة؟».</td>
+              <td data-label="الخطأ الشائع">تجاهل الموارد الخارجية الحقيقية والاعتماد على «قوة التفكير» وحدها.</td>
+            </tr>
+            <tr>
+              <td data-label="المبدأ">الأنظمة التمثيلية</td>
+              <td data-label="المعنى">نتعامل مع العالم عبر قنوات بصرية وسمعية وحسية، ولكل شخص تفضيل.</td>
+              <td data-label="التطبيق في المحادثة">استخدم أفعاله: «أرى/أتخيل»، «أسمع/يرنّ»، «أحس/ثقيل» لوصف الفكرة نفسها.</td>
+              <td data-label="الخطأ الشائع">تصنيف الناس في قوالب ثابتة والتحدث بلغة لا تشبه لغتهم.</td>
+            </tr>
+            <tr>
+              <td data-label="المبدأ">الألفة تسبق التأثير</td>
+              <td data-label="المعنى">الثقة والانسجام يفتحان باب الاستقبال؛ والمطابقة اللطيفة في الإيقاع والنبرة تبنيه.</td>
+              <td data-label="التطبيق في المحادثة">استمع أولًا، طابق الوتيرة، ثم قُد الحوار بلطف نحو الهدف.</td>
+              <td data-label="الخطأ الشائع">محاكاة متكلفة أو تملّق؛ الألفة تختلف عن التقليد الأعمى.</td>
+            </tr>
+            <tr>
+              <td data-label="المبدأ">الحساسية الحسية</td>
+              <td data-label="المعنى">الانتباه الدقيق للإشارات (نبرة، نظرة، وضعية) يكشف ما لا يقوله الكلام.</td>
+              <td data-label="التطبيق في المحادثة">لاحظ التغيّر واسأل عنه بلطف بدل تخمينه أو تجاهله.</td>
+              <td data-label="الخطأ الشائع">تفسير الإشارة كحقيقة مؤكدة والبناء عليها دون تحقق.</td>
+            </tr>
+            <tr>
+              <td data-label="المبدأ">المراسي</td>
+              <td data-label="المعنى">ربط مؤشر حسّي بحالة نفسية يجعل استدعاءها أسرع.</td>
+              <td data-label="التطبيق في المحادثة">لمسة أو كلمة أو نَفَس عميق قبل موقف يحتاج ثباتًا.</td>
+              <td data-label="الخطأ الشائع">استخدامها لحالات شديدة الاضطراب بدل المعالجة المتخصصة.</td>
+            </tr>
+            <tr>
+              <td data-label="المبدأ">إعادة التأطير</td>
+              <td data-label="المعنى">تغيير الإطار الذي نقرأ به الموقف يغيّر معناه واستجابتنا له.</td>
+              <td data-label="التطبيق في المحادثة">«ما الفائدة المحتملة في هذا؟ ما القراءة الأخرى؟».</td>
+              <td data-label="الخطأ الشائع">تطبيقها كتبرير سلبي («هذا خير» في كل شيء) وإنكار الوجع الحقيقي.</td>
+            </tr>
+            <tr>
+              <td data-label="المبدأ">توحيد النية</td>
+              <td data-label="المعنى">البحث عن الهدف الأعلى المشترك خلف المواقف المتعارضة.</td>
+              <td data-label="التطبيق في المحادثة">«ما الذي نريده في النهاية؟» ثم بناء حل يخدم الهدفين.</td>
+              <td data-label="الخطأ الشائع">افتراض نية سيئة أو التنازل عن الحقوق باسم «النية المشتركة».</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="section-head reveal" style="margin-top:34px">
+        <div>
+          <span class="kicker">أدوات</span>
+          <h2>أربع <em>أدوات عملية</em></h2>
+          <p>وصف مختصر لكل أداة مع طريقة استخدام آمنة وحدودها.</p>
+        </div>
+      </div>
+
+      <div class="grid grid-2">
+        <article class="card reveal">
+          <span class="num">١</span>
+          <h3>المرساة</h3>
+          <p><span class="cell-strong">ما هي:</span> ربط حالة نفسية قوية بمؤشر حسّي (لمسة، كلمة، صورة) لاستدعائها لاحقًا.</p>
+          <p style="margin-top:8px"><span class="cell-strong">الخطوات:</span> تذكّر حالة ثقة/هدوء → ادخل فيها بالكامل → عند القمة اضغط مؤشرك 5 ثوانٍ → كرّر 3–5 مرات → اختبر لمسة خفيفة.</p>
+          <p style="margin-top:8px"><span class="cell-strong">تنبيه:</span> لا تُستخدم لاستدعاء ذكريات مؤلمة أو لحالات قلق شديدة بلا مختص.</p>
+        </article>
+        <article class="card reveal">
+          <span class="num">٢</span>
+          <h3>السويش</h3>
+          <p><span class="cell-strong">ما هي:</span> استبدال صورة ذهنية مزعجة بصورة مريحة بسرعة، لتغيير الاستجابة المرتبطة بها.</p>
+          <p style="margin-top:8px"><span class="cell-strong">الخطوات:</span> صورة صغيرة مزعجة → صورة مريحة جاهزة → انتقال سريع بينهما 5 مرات → اختبار التخيّل.</p>
+          <p style="margin-top:8px"><span class="cell-strong">تنبيه:</span> مناسبة للمواقف الخفيفة؛ الصدمات والذكريات المؤلمة تحتاج معالجة متخصصة.</p>
+        </article>
+        <article class="card reveal">
+          <span class="num">٣</span>
+          <h3>المواقع الإدراكية الثلاثة</h3>
+          <p><span class="cell-strong">ما هي:</span> النظر إلى الموقف من موقعك، ثم موقع الآخر، ثم موقع مراقب محايد.</p>
+          <p style="margin-top:8px"><span class="cell-strong">الخطوات:</span> اجلس في ثلاثة مواضع مختلفة → صف الموقف من كل موضع بصوت منخفض → اخرج بفارق واحد في فهمك.</p>
+          <p style="margin-top:8px"><span class="cell-strong">تنبيه:</span> فهم وجهة النظر لا يعني التنازل عن حقك أو قبول الإساءة.</p>
+        </article>
+        <article class="card reveal">
+          <span class="num">٤</span>
+          <h3>الخط الزمني</h3>
+          <p><span class="cell-strong">ما هي:</span> ترتيب التجربة على خط زمني ذهني (ماضٍ → حاضر → مستقبل) لفصل الماضي عن الحاضر.</p>
+          <p style="margin-top:8px"><span class="cell-strong">الخطوات:</span> تخيّل خطًا أمامك → ضع الذكرى في الماضي خلفك → صف الحاضر → تخيّل خطوة قادمة أمامك.</p>
+          <p style="margin-top:8px"><span class="cell-strong">تنبيه:</span> تمرين توجيهي وليس علاجًا؛ إن سبّب ضيقًا توقف واستشر مختصًا.</p>
+        </article>
+      </div>
+
+      <div class="note teal reveal" style="margin-top:20px">
+        <span class="note-ico" aria-hidden="true">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M12 3l9 16H3z"></path><path d="M12 9v5M12 17h.01"></path></svg>
+        </span>
+        <p><b>تنبيه مهم:</b> أدوات البرمجة اللغوية العصبية ليست بديلًا عن علاج نفسي أو طبي. إذا كنت تعاني قلقًا أو اكتئابًا أو صدمة أو أفكارًا مؤذية، فالتوجه إلى مختص نفسي مرخّص هو الخطوة الصحيحة — وليس تمرينًا ذاتيًا.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======================= خطة 30 يوم ======================= -->
+  <section id="plan" class="view" aria-labelledby="planTitle">
+    <div class="wrap pad">
+      <div class="section-head reveal">
+        <div>
+          <span class="kicker">التنفيذ</span>
+          <h2 id="planTitle">خطة <em>30 يومًا</em></h2>
+          <p>أربعة أسابيع × خمس مهام. علّم المهمة عند إنجازها — التقدم يُحفظ في متصفحك (localStorage) ويعود عند إعادة الفتح.</p>
+        </div>
+      </div>
+
+      <div class="plan-progress reveal no-print">
+        <div class="ring">
+          <b id="planPct">0%</b>
+          <span>مكتمل</span>
+        </div>
+        <div class="bar" role="progressbar" aria-label="تقدم خطة 30 يوم" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0" id="planBarWrap">
+          <i id="planBar"></i>
+        </div>
+        <span id="planDone" style="font-size:.88rem;color:var(--muted);font-weight:700">0 / 20 مهمة</span>
+        <button class="btn btn-ghost btn-sm reset no-print" id="planReset" type="button">تصفير</button>
+      </div>
+
+      <div class="note reveal no-print">
+        <span class="note-ico" aria-hidden="true">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="9"></circle><path d="M12 8h.01M11 12h1v5h1"></path></svg>
+        </span>
+        <p>القاعدة: <b>لا تؤجل أسبوعًا كاملًا</b>. إن فاتك يوم، أكمل من اليوم التالي بنفس ترتيب المهام. الخطة إرشادية وقابلة للتعديل حسب ظروفك.</p>
+      </div>
+
+      <div class="week">
+        <div class="week-head reveal">
+          <span class="wk">الأسبوع الأول</span>
+          <span class="wk-sub">الوعي والقياس — تعرّف على خطك الأساسي قبل أي تغيير</span>
+        </div>
+        <div class="tasks">
+          <label class="task reveal"><input type="checkbox" data-key="w1t1" /><span class="t-txt">سجّل ثلاث نعم محددة كل ليلة لمدة 7 أيام.<span class="t-meta">الانفعالات الإيجابية · 5 دقائق</span></span></label>
+          <label class="task reveal"><input type="checkbox" data-key="w1t2" /><span class="t-txt">طبّق جدول «حدث / تفسير / تفسير بديل» على موقف واحد يوميًا.<span class="t-meta">آليات التفكير · 7 دقائق</span></span></label>
+          <label class="task reveal"><input type="checkbox" data-key="w1t3" /><span class="t-txt">20 دقيقة حركة يوميًا (مشي سريع يكفي) دون استثناء.<span class="t-meta">إطلاق الطاقات الحية · 20 دقيقة</span></span></label>
+          <label class="task reveal"><input type="checkbox" data-key="w1t4" /><span class="t-txt">حدد نافذة نوم ثابتة والتزم بها 7 ليالٍ.<span class="t-meta">الطاقة · قرار واحد</span></span></label>
+          <label class="task reveal"><input type="checkbox" data-key="w1t5" /><span class="t-txt">اكتب صفحة «أفضل ذات ممكنة» بعد سنة من اليوم.<span class="t-meta">الأمل · 15 دقيقة</span></span></label>
+        </div>
+      </div>
+
+      <div class="week">
+        <div class="week-head reveal">
+          <span class="wk">الأسبوع الثاني</span>
+          <span class="wk-sub">اللغة والألفة — بناء جسر قبل أي تأثير</span>
+        </div>
+        <div class="tasks">
+          <label class="task reveal"><input type="checkbox" data-key="w2t1" /><span class="t-txt">لاحظ النظام التمثيلي في 3 محادثات وردّ بلغة المتحدث.<span class="t-meta">الأنظمة التمثيلية · أثناء اليوم</span></span></label>
+          <label class="task reveal"><input type="checkbox" data-key="w2t2" /><span class="t-txt">ابنِ ألفة قبل الطلب في محادثة صعبة واحدة.<span class="t-meta">الألفة · محادثة واحدة</span></span></label>
+          <label class="task reveal"><input type="checkbox" data-key="w2t3" /><span class="t-txt">اصنع مرساة شخصية واختبرها في موقف يحتاج ثباتًا.<span class="t-meta">المراسي · 10 دقائق</span></span></label>
+          <label class="task reveal"><input type="checkbox" data-key="w2t4" /><span class="t-txt">استبدل «لماذا أعجز؟» بـ«ماذا أحتاج لتنجح؟» ثلاث مرات.<span class="t-meta">الموارد · فوري</span></span></label>
+          <label class="task reveal"><input type="checkbox" data-key="w2t5" /><span class="t-txt">اطلب تغذية راجعة محددة من شخصين مختلفين.<span class="t-meta">الاقتدار · 10 دقائق</span></span></label>
+        </div>
+      </div>
+
+      <div class="week">
+        <div class="week-head reveal">
+          <span class="wk">الأسبوع الثالث</span>
+          <span class="wk-sub">التأطير والتأثير — من الفهم إلى الأثر</span>
+        </div>
+        <div class="tasks">
+          <label class="task reveal"><input type="checkbox" data-key="w3t1" /><span class="t-txt">أعد تأطير موقف واحد يوميًا واكتب الإطارين.<span class="t-meta">إعادة التأطير · 5 دقائق</span></span></label>
+          <label class="task reveal"><input type="checkbox" data-key="w3t2" /><span class="t-txt">استخدم المواقع الإدراكية الثلاثة في خلاف واحد.<span class="t-meta">الأدوات · 10 دقائق</span></span></label>
+          <label class="task reveal"><input type="checkbox" data-key="w3t3" /><span class="t-txt">اشرح «لماذا» قبل «ماذا» في كل تكليف هذا الأسبوع.<span class="t-meta">القيادة التحويلية · أثناء العمل</span></span></label>
+          <label class="task reveal"><input type="checkbox" data-key="w3t4" /><span class="t-txt">قدّر جهدًا محددًا بالاسم لشخصين دون «لكن».<span class="t-meta">القيادة · دقيقتان</span></span></label>
+          <label class="task reveal"><input type="checkbox" data-key="w3t5" /><span class="t-txt">وحّد النية في تفاوض صغير: «ما الذي نريده في النهاية؟».<span class="t-meta">توحيد النية · محادثة</span></span></label>
+        </div>
+      </div>
+
+      <div class="week">
+        <div class="week-head reveal">
+          <span class="wk">الأسبوع الرابع</span>
+          <span class="wk-sub">التثبيت — تحويل التجربة إلى نظام</span>
+        </div>
+        <div class="tasks">
+          <label class="task reveal"><input type="checkbox" data-key="w4t1" /><span class="t-txt">راجع أسبوعك بثلاثة أسئلة: نجح / تعلّمت / غدًا.<span class="t-meta">المراجعة · 10 دقائق</span></span></label>
+          <label class="task reveal"><input type="checkbox" data-key="w4t2" /><span class="t-txt">اكتب خطة الـ30 يومًا القادمة بنفس القالب.<span class="t-meta">الاستمرارية · 20 دقيقة</span></span></label>
+          <label class="task reveal"><input type="checkbox" data-key="w4t3" /><span class="t-txt">شارك ما تعلّمته مع شخص واحد (تعليم = تثبيت).<span class="t-meta">العلاقات · 15 دقيقة</span></span></label>
+          <label class="task reveal"><input type="checkbox" data-key="w4t4" /><span class="t-txt">احذف عادة واحدة تسحب طاقتك (أو قلّلها للنصف).<span class="t-meta">الطاقة · قرار</span></span></label>
+          <label class="task reveal"><input type="checkbox" data-key="w4t5" /><span class="t-txt">املأ جدول المؤشرات أدناه وقارن الأسبوع 1 بالـ4.<span class="t-meta">القياس · 10 دقائق</span></span></label>
+        </div>
+      </div>
+
+      <div class="section-head reveal" style="margin-top:32px">
+        <div>
+          <span class="kicker">قياس</span>
+          <h2>مؤشرات <em>أسبوعية</em></h2>
+          <p>ستة مؤشرات بسيطة تكفي. القيمة الرقمية أفضل من الانطباع — اكتبها كل نهاية أسبوع.</p>
+        </div>
+      </div>
+
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th scope="col">المؤشر</th>
+              <th scope="col">كيف تقيسه</th>
+              <th scope="col">أسبوع ١</th>
+              <th scope="col">أسبوع ٢</th>
+              <th scope="col">أسبوع ٣</th>
+              <th scope="col">أسبوع ٤</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td data-label="المؤشر">متوسط المزاج اليومي</td>
+              <td data-label="كيف تقيسه">قيّم مزاجك 1–10 كل ليلة واحسب المتوسط</td>
+              <td data-label="أسبوع ١">≥ 6</td>
+              <td data-label="أسبوع ٢">≥ 6.5</td>
+              <td data-label="أسبوع ٣">≥ 7</td>
+              <td data-label="أسبوع ٤">≥ 7</td>
+            </tr>
+            <tr>
+              <td data-label="المؤشر">ليالي الامتنان</td>
+              <td data-label="كيف تقيسه">عدد الليالي التي كتبت فيها ثلاث نعم</td>
+              <td data-label="أسبوع ١">5</td>
+              <td data-label="أسبوع ٢">6</td>
+              <td data-label="أسبوع ٣">7</td>
+              <td data-label="أسبوع ٤">7</td>
+            </tr>
+            <tr>
+              <td data-label="المؤشر">دقائق الحركة</td>
+              <td data-label="كيف تقيسه">مجموع دقائق الحركة في الأسبوع</td>
+              <td data-label="أسبوع ١">70</td>
+              <td data-label="أسبوع ٢">100</td>
+              <td data-label="أسبوع ٣">120</td>
+              <td data-label="أسبوع ٤">140</td>
+            </tr>
+            <tr>
+              <td data-label="المؤشر">محادثات بتطبيق الألفة</td>
+              <td data-label="كيف تقيسه">عدّ المحادثات التي بنيت فيها ألفة قبل الطلب</td>
+              <td data-label="أسبوع ١">2</td>
+              <td data-label="أسبوع ٢">3</td>
+              <td data-label="أسبوع ٣">4</td>
+              <td data-label="أسبوع ٤">5</td>
+            </tr>
+            <tr>
+              <td data-label="المؤشر">مواقف أُعيد تأطيرها</td>
+              <td data-label="كيف تقيسه">عدد المواقف التي كتبت لها إطارًا بديلًا</td>
+              <td data-label="أسبوع ١">3</td>
+              <td data-label="أسبوع ٢">5</td>
+              <td data-label="أسبوع ٣">7</td>
+              <td data-label="أسبوع ٤">7</td>
+            </tr>
+            <tr>
+              <td data-label="المؤشر">الالتزام بنافذة النوم</td>
+              <td data-label="كيف تقيسه">عدد الليالي داخل النافذة المحددة</td>
+              <td data-label="أسبوع ١">4</td>
+              <td data-label="أسبوع ٢">5</td>
+              <td data-label="أسبوع ٣">6</td>
+              <td data-label="أسبوع ٤">7</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <p><b>البروفيسور</b> — خلاصة تنفيذية لكتابَي «إطلاق طاقات الحياة» و«البرمجة اللغوية العصبية».</p>
+    <p>محتوى تعليمي / تطوير ذات، وليس بديلًا عن استشارة نفسية أو طبية متخصصة.</p>
+    <p style="margin-top:10px;color:#5f6c7d">ملاحظة: النسختان المتوفرتان سكان بلا طبقة نص، والخلاصة مبنية على بنية الكتابين ومحاورهما المنشورة — لا اقتباس حرفي.</p>
+  </div>
+</footer>
+
+<nav class="bottom-nav" aria-label="تنقل الجوال">
+  <a href="#home" data-nav="home">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 10.5 12 3l9 7.5"></path><path d="M5 9.5V21h14V9.5"></path><path d="M10 21v-6h4v6"></path></svg>
+    <span>الرئيسية</span>
+  </a>
+  <a href="#tips" data-nav="tips">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 6h12M8 12h12M8 18h12"></path><path d="M4 6h.01M4 12h.01M4 18h.01"></path></svg>
+    <span>النصائح</span>
+  </a>
+  <a href="#psy" data-nav="psy">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 19V6a2 2 0 0 1 2-2h6v15H6a2 2 0 0 0-2 2z"></path><path d="M20 19V6a2 2 0 0 0-2-2h-6v15h6a2 2 0 0 1 2 2z"></path></svg>
+    <span>الكتاب ١</span>
+  </a>
+  <a href="#nlp" data-nav="nlp">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M21 12a8 8 0 1 1-3.2-6.4"></path><path d="M8 11h8M8 15h5"></path></svg>
+    <span>الكتاب ٢</span>
+  </a>
+  <a href="#plan" data-nav="plan">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="16" rx="2"></rect><path d="M8 3v4M16 3v4M3 10h18"></path><path d="M9 15l2 2 4-4"></path></svg>
+    <span>الخطة</span>
+  </a>
+</nav>
+
+<script>
+(function () {
+  'use strict';
+
+  var doc = document;
+
+  /* تخزين آمن: بعض المتصفحات تمنع التخزين على file:// */
+  var ss = null, ls = null;
+  try { ss = window.sessionStorage; ss.setItem('__probe', '1'); ss.removeItem('__probe'); } catch (e) { ss = null; }
+  try { ls = window.localStorage; ls.setItem('__probe', '1'); ls.removeItem('__probe'); } catch (e) { ls = null; }
+
+  /* ---------------- بوابة الرمز ---------------- */
+  /* تحذير: هذا قفل واجهة فقط. الرمز مكتوب في الملف، وأي مستخدم
+     يستطيع قراءته أو تعطيل JavaScript. لا تعتمد عليه لحماية محتوى حساس. */
+  var CODE = '123321';
+  var lockEl = doc.getElementById('lock');
+  var lockCard = doc.getElementById('lockCard');
+  var lockInput = doc.getElementById('lockInput');
+  var lockError = doc.getElementById('lockError');
+  var lockForm = doc.getElementById('lockForm');
+
+  function hasSession() {
+    if (!ss) return false;
+    try { return ss.getItem('prof_ok') === '1'; } catch (e) { return false; }
+  }
+  function showLock() {
+    if (!lockEl) return;
+    lockEl.hidden = false;
+    doc.body.classList.add('locked');
+    if (lockError) lockError.textContent = '';
+    if (lockInput) { lockInput.value = ''; setTimeout(function () { try { lockInput.focus(); } catch (e) {} }, 80); }
+  }
+  function hideLock() {
+    if (!lockEl) return;
+    lockEl.hidden = true;
+    doc.body.classList.remove('locked');
+  }
+
+  if (hasSession()) { hideLock(); } else { showLock(); }
+
+  if (lockForm) {
+    lockForm.addEventListener('submit', function (ev) {
+      ev.preventDefault();
+      var val = (lockInput && lockInput.value ? lockInput.value : '').trim();
+      if (val === CODE) {
+        if (ss) { try { ss.setItem('prof_ok', '1'); } catch (e) {} }
+        hideLock();
+      } else {
+        if (lockError) lockError.textContent = 'رمز غير صحيح. حاول مرة أخرى.';
+        if (lockCard) {
+          lockCard.classList.remove('shake');
+          void lockCard.offsetWidth;
+          lockCard.classList.add('shake');
+        }
+        if (lockInput) { try { lockInput.select(); } catch (e) {} }
+      }
+    });
+  }
+  if (lockInput) {
+    lockInput.addEventListener('input', function () {
+      if (lockError) lockError.textContent = '';
+    });
+  }
+
+  var lockBtn = doc.getElementById('lockBtn');
+  if (lockBtn) {
+    lockBtn.addEventListener('click', function () {
+      if (ss) { try { ss.removeItem('prof_ok'); } catch (e) {} }
+      try { if (location.hash && location.hash !== '#home') history.replaceState(null, '', '#home'); } catch (e) {}
+      showLock();
+    });
+  }
+
+  /* ---------------- التنقل ---------------- */
+  var VIEWS = ['home', 'tips', 'psy', 'nlp', 'plan'];
+  var TITLES = {
+    home: 'الرئيسية',
+    tips: 'أهم النصائح',
+    psy: 'إطلاق طاقات الحياة',
+    nlp: 'البرمجة اللغوية العصبية',
+    plan: 'خطة 30 يومًا'
+  };
+
+  function currentView() {
+    var h = (location.hash || '').replace('#', '').split('?')[0];
+    return VIEWS.indexOf(h) > -1 ? h : 'home';
+  }
+
+  function render() {
+    var v = currentView();
+    VIEWS.forEach(function (id) {
+      var el = doc.getElementById(id);
+      if (el) el.classList.toggle('active', id === v);
+    });
+    var links = doc.querySelectorAll('[data-nav]');
+    for (var i = 0; i < links.length; i++) {
+      links[i].classList.toggle('active', links[i].getAttribute('data-nav') === v);
+    }
+    doc.title = 'البروفيسور — ' + TITLES[v];
+  }
+
+  window.addEventListener('hashchange', function () {
+    render();
+    var reduce = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    try { window.scrollTo({ top: 0, behavior: reduce ? 'auto' : 'smooth' }); }
+    catch (e) { window.scrollTo(0, 0); }
+  });
+
+  render();
+
+  /* ---------------- الظهور التدريجي ---------------- */
+  var reveals = Array.prototype.slice.call(doc.querySelectorAll('.reveal'));
+
+  function revealAll() {
+    reveals.forEach(function (el) { el.classList.add('in'); });
+  }
+
+  if ('IntersectionObserver' in window) {
+    var io = new IntersectionObserver(function (entries) {
+      entries.forEach(function (en) {
+        if (en.isIntersecting) {
+          en.target.classList.add('in');
+          io.unobserve(en.target);
+        }
+      });
+    }, { threshold: 0.12, rootMargin: '0px 0px -40px 0px' });
+    reveals.forEach(function (el) { io.observe(el); });
+  } else {
+    revealAll();
+  }
+
+  /* شبكة أمان: إظهار كل الكروت بعد 1.6 ثانية مهما حدث */
+  window.setTimeout(revealAll, 1600);
+
+  /* ---------------- شريط تقدم القراءة ---------------- */
+  var readbar = doc.getElementById('readbar');
+  function updateReadbar() {
+    if (!readbar) return;
+    var el = doc.documentElement;
+    var max = el.scrollHeight - el.clientHeight;
+    var top = window.pageYOffset || el.scrollTop || 0;
+    var p = max > 0 ? Math.min(100, Math.max(0, (top / max) * 100)) : 0;
+    readbar.style.width = p + '%';
+  }
+  window.addEventListener('scroll', updateReadbar, { passive: true });
+  window.addEventListener('resize', updateReadbar);
+  updateReadbar();
+
+  /* ---------------- بحث وفلترة النصائح ---------------- */
+  function norm(s) {
+    return String(s)
+      .replace(/[\u064B-\u0652\u0640]/g, '')
+      .replace(/[أإآٱ]/g, 'ا')
+      .replace(/ى/g, 'ي')
+      .replace(/ة/g, 'ه')
+      .toLowerCase();
+  }
+
+  var search = doc.getElementById('tipSearch');
+  var chips = Array.prototype.slice.call(doc.querySelectorAll('.chip'));
+  var rows = Array.prototype.slice.call(doc.querySelectorAll('#tipsBody tr[data-book]'));
+  var countEl = doc.getElementById('tipCount');
+  var emptyRow = doc.getElementById('tipEmpty');
+  var activeFilter = 'all';
+
+  function applyFilter() {
+    var q = norm(search && search.value ? search.value.trim() : '');
+    var shown = 0;
+
+    rows.forEach(function (row) {
+      var okBook = activeFilter === 'all' || row.getAttribute('data-book') === activeFilter;
+      var okText = !q || norm(row.textContent).indexOf(q) > -1;
+      var show = okBook && okText;
+      if (show) { row.removeAttribute('hidden'); shown++; }
+      else { row.setAttribute('hidden', ''); }
+    });
+
+    if (countEl) countEl.innerHTML = '<b>' + shown + '</b> من 30 نصيحة';
+    if (emptyRow) emptyRow.hidden = shown !== 0;
+  }
+
+  if (search) search.addEventListener('input', applyFilter);
+
+  chips.forEach(function (chip) {
+    chip.addEventListener('click', function () {
+      activeFilter = chip.getAttribute('data-filter') || 'all';
+      chips.forEach(function (c) { c.classList.toggle('active', c === chip); });
+      applyFilter();
+    });
+  });
+
+  applyFilter();
+
+  /* ---------------- طباعة ---------------- */
+  var printBtn = doc.getElementById('printBtn');
+  if (printBtn) {
+    printBtn.addEventListener('click', function () {
+      try { window.print(); } catch (e) {}
+    });
+  }
+
+  /* ---------------- خطة 30 يوم ---------------- */
+  var PLAN_KEY = 'prof_plan_v1';
+  var boxes = Array.prototype.slice.call(doc.querySelectorAll('.task input[type="checkbox"]'));
+  var planBar = doc.getElementById('planBar');
+  var planPct = doc.getElementById('planPct');
+  var planDone = doc.getElementById('planDone');
+  var planBarWrap = doc.getElementById('planBarWrap');
+
+  function syncTask(box) {
+    var label = box.closest ? box.closest('.task') : null;
+    if (label) label.classList.toggle('done', box.checked);
+  }
+
+  function updatePlan() {
+    var done = 0;
+    boxes.forEach(function (b) { if (b.checked) done++; });
+    var total = boxes.length || 20;
+    var pct = Math.round((done / total) * 100);
+    if (planBar) planBar.style.width = pct + '%';
+    if (planPct) planPct.textContent = pct + '%';
+    if (planDone) planDone.textContent = done + ' / ' + total + ' مهمة';
+    if (planBarWrap) planBarWrap.setAttribute('aria-valuenow', String(pct));
+  }
+
+  boxes.forEach(function (box, idx) {
+    var key = box.getAttribute('data-key') || ('task' + idx);
+    if (ls) {
+      try { if (ls.getItem(PLAN_KEY + ':' + key) === '1') box.checked = true; } catch (e) {}
+    }
+    syncTask(box);
+    box.addEventListener('change', function () {
+      syncTask(box);
+      if (ls) {
+        try {
+          if (box.checked) ls.setItem(PLAN_KEY + ':' + key, '1');
+          else ls.removeItem(PLAN_KEY + ':' + key);
+        } catch (e) {}
+      }
+      updatePlan();
+    });
+  });
+
+  updatePlan();
+
+  var resetBtn = doc.getElementById('planReset');
+  if (resetBtn) {
+    resetBtn.addEventListener('click', function () {
+      boxes.forEach(function (b) {
+        b.checked = false;
+        syncTask(b);
+        var key = b.getAttribute('data-key');
+        if (ls && key) { try { ls.removeItem(PLAN_KEY + ':' + key); } catch (e) {} }
+      });
+      updatePlan();
+    });
+  }
+
+})();
+</script>
+</body>
+</html>
